@@ -1,1 +1,4 @@
 site_name: VideoOS-lua-app
+nav:
+  - 'OS_Lua 简介': 'OS_Lua 简介.md'
+  - '下载': 'download.md'
