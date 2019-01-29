@@ -4,7 +4,7 @@ nav:
   - 'Android集成说明': 'Android.md'
   - 'iOS集成说明': 'iOS.md'
   - 'lua_View':
-     - 'Alert': 'Alert.md'
+     - 'Alert': 'API/Lua_View/Alert.md'
      - 'Animation': 'Animation.md'
      - 'Button': 'Button.md'
      - 'Canvas': 'Canvas.md'
