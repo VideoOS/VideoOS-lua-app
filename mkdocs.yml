@@ -1,6 +1,5 @@
 site_name: VideoOS-lua-app
 nav:
-  - 'OS_Lua 简介': 'OS_Lua 简介.md'
-  - 'Android集成说明': 'Android集成说明.md'
-  - 'iOS集成说明': 'iOS集成说明.md'
-  - 'API文档': 'iOS集成说明.md'
+  - 'OS_Lua 简介': 'OS_Lua.md'
+  - 'Android集成说明': 'Android.md'
+  - 'iOS集成说明': 'iOS.md'
