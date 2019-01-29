@@ -28,5 +28,18 @@ nav:
      - 'Toast': 'Toast.md'
      - 'View': 'View.md'
      - 'WebView': 'WebView.md'
-- 'API': 
+  - 'API': 
     - 'Lua_Bridge': 'Lua_Bridge'
+  - 'Lua_Bridge':
+     - 'AudioPlayer': 'AudioPlayer.md'
+     - 'Data': 'Data.md'
+     - 'File': 'File.md'
+     - 'Http': 'Http.md'
+     - 'Json': 'Json.md'
+     - 'Media': 'Media.md'
+     - 'Mqtt': 'Mqtt.md'
+     - 'Native': 'Native.md'
+     - 'Page': 'Page.md'
+     - 'System': 'System.md'
+     - 'Timer': 'Timer.md'
+     - 'Vibrator': 'Vibrator.md'
