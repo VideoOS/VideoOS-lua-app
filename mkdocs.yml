@@ -43,3 +43,16 @@ nav:
      - 'System': 'System.md'
      - 'Timer': 'Timer.md'
      - 'Vibrator': 'Vibrator.md'
+  - 'Lua_Constants':
+     - 'Align': 'Align.md'
+     - 'Ellipsize': 'Ellipsize.md'
+     - 'FontStyle': 'FontStyle.md'
+     - 'FontWeight': 'FontWeight.md'
+     - 'Gravity': 'Gravity.md'
+     - 'Interpolator': 'Interpolator.md'
+     - 'PaintStyle': 'PaintStyle.md'
+     - 'ScaleType': 'ScaleType.md'
+     - 'TextAlign': 'TextAlign.md'
+     - 'ViewEffect': 'ViewEffect.md'
+
+
