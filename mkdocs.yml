@@ -28,8 +28,6 @@ nav:
      - 'Toast': 'Toast.md'
      - 'View': 'View.md'
      - 'WebView': 'WebView.md'
-  - 'API': 
-    - 'Lua_Bridge': 'Lua_Bridge'
   - 'Lua_Bridge':
      - 'AudioPlayer': 'AudioPlayer.md'
      - 'Data': 'Data.md'
