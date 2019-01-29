@@ -3,3 +3,5 @@ nav:
   - 'OS_Lua 简介': 'OS_Lua.md'
   - 'Android集成说明': 'Android.md'
   - 'iOS集成说明': 'iOS.md'
+  - 'lua_View':
+     - 'Button': 'Button.md'
