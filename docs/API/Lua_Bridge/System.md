@@ -35,7 +35,7 @@ local isIOS = System:ios()
 local isAndoroid = System:android()
 ```
 
-## sdkVersion
+## vmVersion
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | sdkVersion    |   -  |   String| -|   LuaView版本|
