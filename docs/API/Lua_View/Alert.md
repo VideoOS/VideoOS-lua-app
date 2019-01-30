@@ -21,8 +21,8 @@ Alert(as1, text, ok, function()
     print("点击了")
 end)
 ```
-
-#### Alert(title, content, buttonTexts[], buttonCallbacks[])
+## Altert
+Alert(title, content, buttonTexts[], buttonCallbacks[])
 - Title: String/StyledString/Unicode
 - Content: String/StyledString/Unicode
 - Buttontexts[ ]: String/StyledString/Unicode [ ]
