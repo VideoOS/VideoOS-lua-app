@@ -1,7 +1,7 @@
 View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的UIView。其中View是所有View级别控件api的父类。
 
 # API
-
+<a href="#1">第一段</a>
 [initParams](#initParams)
 [invalidate](#invalidate)
 [padding](#padding)
@@ -144,7 +144,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
     例:
 	local view = View()
 	view:padding(5, 5, 5, 5)
-
+<a name="1">第一段</a>
 ##frame
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
