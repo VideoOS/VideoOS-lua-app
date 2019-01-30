@@ -118,7 +118,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 [children](#children)
 [flexChildren](#flexChildren)
 
-
+<a name="initParams">initParams</a>
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | initParams   |   table: LuaTable  |   -| Android |   初始化参数|
