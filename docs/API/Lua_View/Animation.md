@@ -84,7 +84,7 @@ animation:with(view)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:start()
 ```
 
@@ -95,7 +95,7 @@ animation:start()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:alpha(0.5,3)
 ```
 
@@ -107,7 +107,7 @@ animation:alpha(0.5,3)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:rotation(30,4)
 ```
 
@@ -119,7 +119,7 @@ animation:rotation(30,4)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:scale(10,10)
 ```
 
@@ -131,7 +131,7 @@ animation:scale(10,10)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:scaleX(4)
 ```
 
@@ -143,7 +143,7 @@ animation:scaleX(4)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:scaleY(4)
 ```
 
@@ -154,7 +154,7 @@ animation:scaleY(4)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:translation(3,4)
 ```
 
@@ -165,7 +165,7 @@ animation:translation(3,4)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:translationX(23)
 ```
 
@@ -176,7 +176,7 @@ animation:translationX(23)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:translationY(5)
 ```
 
@@ -187,7 +187,7 @@ animation:translationY(5)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:duration(0.25)
 ```
 
@@ -199,7 +199,7 @@ animation:duration(0.25)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:delay(3)
 ```
 
@@ -211,7 +211,7 @@ animation:delay(3)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:repeatCount(3)
 ```
 
@@ -223,7 +223,7 @@ animation:repeatCount(3)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:interpolator(Interplator:ACCELERATE)
 ```
 
@@ -245,7 +245,7 @@ animation:interpolator(Interplator:ACCELERATE)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:cancel()
 ```
 
@@ -256,7 +256,7 @@ animation:cancel()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:pause()
 ```
 
@@ -268,7 +268,7 @@ animation:pause()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:isPaused()
 ```
 
@@ -279,7 +279,7 @@ animation:isPaused()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:isRunning()
 ```
 
@@ -290,7 +290,7 @@ animation:isRunning()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:resume()
 ```
 
@@ -302,7 +302,7 @@ animation:resume()
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:reverses(ture)
 ```
 
@@ -314,7 +314,7 @@ animation:reverses(ture)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:values(2)
 ```
 
@@ -326,7 +326,7 @@ animation:values(2)
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:callback({})
 ```
 
@@ -338,7 +338,7 @@ animation:callback({})
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onStart(
     function()
         print("Running")
@@ -353,7 +353,7 @@ animation:onStart(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onEnd(
     function()
         print("End")
@@ -368,7 +368,7 @@ animation:onEnd(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onRepeat(
     function()
         print("Repeat")
@@ -383,7 +383,7 @@ animation:onRepeat(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onCancel(
     function()
         print("Cancel ")
@@ -398,7 +398,7 @@ animation:onCancel(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onPause(
     function()
         print("Pause ")
@@ -413,7 +413,7 @@ animation:onPause(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onUpdate(
     function()
         print("Update ")
@@ -428,7 +428,7 @@ animation:onUpdate(
 
 例:
 ```lua
-animation= Animation()
+animation = Animation()
 animation:onResume(
     function()
         print("Resume")
