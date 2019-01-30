@@ -16,7 +16,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 ## play
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   play     |  name: String<br&times: Number    |   -  |  -    |   播放（uri，重复次数）    |
+|   play     |  name: String<br/>times: Number    |   -  |  -    |   播放（uri，重复次数）    |
 
 例:
 ```lua
