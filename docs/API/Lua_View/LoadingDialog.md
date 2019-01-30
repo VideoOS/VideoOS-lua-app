@@ -1,108 +1,128 @@
 LoadingDialog 是OS_Lua系统中的加载对话框组件。(Android专有)
 
 # API
-<!-- TOC --&
-[show](#show)
-[isShow](#isShow)
-[start](#start)
-[isStart](#isStart)
-[startAnimating](#startAnimating)
-[isAnimating](#isAnimating)
-[hide ](#hide )
-[stop ](#stop )
-[stopAnimating ](#stopAnimating )
-[color ](#color )
-<!-- /TOC --&
 
-##show
+* [show](#show)
+* [isShow](#isShow)
+* [start](#start)
+* [isStart](#isStart)
+* [startAnimating](#startAnimating)
+* [isAnimating](#isAnimating)
+* [hide ](#hide )
+* [stop ](#stop )
+* [stopAnimating ](#stopAnimating )
+* [color ](#color )
+
+
+## show
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   show     |    -  |  -   |    - |   开始转动    |
 
-    例:
-    loading = LoadingDialog()
-	loading:
+例:
+```lua
+loading = LoadingDialog()
+loading:show()
+```
 
-##isShow
+## isShow
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  isShow      |    -  |   v: Boolean  | -    |  是否开始转动     |
 
-    例:
-    loading = LoadingDialog()
-	loading:
+例:
+```lua
+loading = LoadingDialog()
+loading:isShow()
+```
 
-##start
+## start
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    start    |    -  |  -   |   -  |   开始转动    |
 
-    例:
-    loading = LoadingDialog()
-	loading:
+例:
+```lua
+loading = LoadingDialog()
+loading:start()
+```
 
-##isStart
+## isStart
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   isStart     |  -    |  v: Boolean   |  -   |   是否开始转动    |
 
-    例:
-    loading = LoadingDialog()
-	loading:
+例:
+```lua
+loading = LoadingDialog()
+loading:isStart()
+```
 
-##startAnimating
+## startAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    startAnimating    |  -    |   -  |   -  |    开始转动   |
 
-    例:
-    loading = LoadingDialog()
-	loading:startAnimating()
+例:
+```lua
+loading = LoadingDialog()
+loading:startAnimating()
+```
 
-##isAnimating
+## isAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    isAnimating    |   -   |   v: Boolean  |    - |   是否开始转动    |
 
-    例:
-    loading = LoadingDialog()
-	loading:isAnimating()
+例:
+```lua
+loading = LoadingDialog()
+loading:isAnimating()
+```
 
-##hide
+## hide
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    hide    |   -   |  -   | -    |    停止动画   |
 
-    例:
-    loading = LoadingDialog()
-	loading:hide()
+例:
+```lua
+loading = LoadingDialog()
+loading:hide()
+```
 
-##stop
+## stop
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    stop    |   -   |   -  |   -  |   停止动画    |
 
-    例:
-    loading = LoadingDialog()
-	loading:stop()
+例:
+```lua
+loading = LoadingDialog()
+loading:stop()
+```
 
-##stopAnimating
+## stopAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   stopAnimating     |   -   |  -   |  -   |   停止动画    |
 
-    例:
-    loading = LoadingDialog()
-	loading:stopAnimating()
+例:
+```lua
+loading = LoadingDialog()
+loading:stopAnimating()
+```
 
-##color
+## color
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    color    |  v: Number    |   v  |   -  |    颜色   |
 
-    例:
-    loading = LoadingDialog()
-	loading:color(0xCCCCCC)
+例:
+```lua
+loading = LoadingDialog()
+loading:color(0xCCCCCC)
+```
 
 
 
