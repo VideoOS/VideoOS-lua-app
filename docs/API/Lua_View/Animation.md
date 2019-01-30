@@ -150,7 +150,7 @@ animation:scaleY(4)
 ## translation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   translation     |   x: Number<br>: Number   | -    |  -   |   设置x轴、y轴位移动画    |
+|   translation     |   x: Number<br>y: Number   | -    |  -   |   设置x轴、y轴位移动画    |
 
 例:
 ```lua
