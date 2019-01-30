@@ -23,8 +23,7 @@ end)
 ```
 ## Altert
 Alert(title, content, buttonTexts[], buttonCallbacks[])
-- Title: String/StyledString/Unicode
-- Content: String/StyledString/Unicode
-- Buttontexts[ ]: String/StyledString/Unicode [ ]
-- Buttoncallbacks[ ]: LuaFunction[ ]
-
+* Title: String/StyledString/Unicode
+* Content: String/StyledString/Unicode
+* Buttontexts[ ]: String/StyledString/Unicode [ ]
+* Buttoncallbacks[ ]: LuaFunction[ ]
