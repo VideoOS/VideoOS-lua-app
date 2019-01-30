@@ -2,7 +2,6 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 
 
 # API
-<!-- TOC --&
 [play](#play)
 [pause ](#pause )
 [resume](#resume)
@@ -12,18 +11,20 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 [playing](#playing)
 [pausing](#pausing)
 [looping](#looping)
-<!-- /TOC --&
 
-##play
+
+## play
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   play     |  name: String<br&times: Number    |   -  |  -    |   播放（uri，重复次数）    |
 
     例:
+    ```lua
     player = AudioPlayer()
 	player:play("http://fm111.img.xiaonei.com/tribe/20070613/10/52/A314269027058MUS.mp3")
+    ```
 
-##pause
+## pause
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |    pause    |  -    |   -  |  Android    |    暂停播放   |
@@ -33,7 +34,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	pause:pause()
 
 
-##resume
+## resume
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   resume     |  -    |   -  |  Android    |   恢复播放    |
@@ -43,7 +44,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	pause:resume()
 
 
-##stop
+## stop
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |    stop    |  -    |   -  |  -    |   停止播放    |
@@ -53,7 +54,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	player:stop()
 
 
-##seekTo
+## seekTo
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   seekTo     |  sec: Number    |   -  |  Android    |   到某个位置    |
@@ -63,7 +64,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	player:seekTo(30)
 
 
-##callback
+## callback
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   callback     |  v: LuaFunction    |   -  |  Android    |    回调   |
@@ -77,7 +78,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	)
 
 
-##playing
+## playing
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   playing     |  -    |   v: Boolean  |  Android    |  是否播放     |
@@ -87,7 +88,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 	player:playing()
 
 
-##pausing
+## pausing
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   pausing     |  -    |   v: Boolean  |  Android    |  是否暂停     |
@@ -96,7 +97,7 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
     player = AudioPlayer()
 	player:pausing()
 
-##looping
+## looping
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |
 |   looping     |  -    |   v: Boolean  |  Android    |    是否循环播放   |
