@@ -110,7 +110,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 [onTouch](#onTouch)
 [onShow](#onShow)
 [onHide ](#onHide )
-[onBack](#onBacck)
+[onBack](#onBacck) 
 [onLayout](#onLayout)
 [addView](#addView)
 [removeView](#removeView)
@@ -118,7 +118,6 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 [children](#children)
 [flexChildren](#flexChildren)
 
-##initParams
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | initParams   |   table: LuaTable  |   -| Android |   初始化参数|
