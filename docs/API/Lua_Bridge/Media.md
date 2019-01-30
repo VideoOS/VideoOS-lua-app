@@ -2,15 +2,15 @@
 
 # API
 
-[mediaCallback ](#mediaCallback)
-[onMediaPause](#onMediaPause)
-[onMediaPlay ](#onMediaPlay)
-[onMediaEnd](#onMediaEnd)
-[onMediaProgress ](#onMediaProgress)
-[onMediaSeeking](#onMediaSeeking)
-[onPlayerSize ](#onPlayerSize)
-[startVideoTime ](#startVideoTime)
-[stopVideoTime](#stopVideoTime)
+* [mediaCallback ](#mediaCallback)
+* [onMediaPause](#onMediaPause)
+* [onMediaPlay ](#onMediaPlay)
+* [onMediaEnd](#onMediaEnd)
+* [onMediaProgress ](#onMediaProgress)
+* [onMediaSeeking](#onMediaSeeking)
+* [onPlayerSize ](#onPlayerSize)
+* [startVideoTime ](#startVideoTime)
+* [stopVideoTime](#stopVideoTime)
 
 ##  mediaCallback
 | api  |参数   |返回参数   |平台   |备注|

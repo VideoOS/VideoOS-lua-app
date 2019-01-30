@@ -1,14 +1,14 @@
 TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS的UITextFiled。
 # API
 
-[hint](#hint)
-[placeholder](#placeholder)
-[text](#text)
-[inputType](#inputType)
-[textColor](#textColor)
-[textSize](#textSize)
-[maxLength](#maxLength)
-[resignFirstResponder](#resignFirstResponder)
+* [hint](#hint)
+* [placeholder](#placeholder)
+* [text](#text)
+* [inputType](#inputType)
+* [textColor](#textColor)
+* [textSize](#textSize)
+* [maxLength](#maxLength)
+* [resignFirstResponder](#resignFirstResponder)
 
 
 ##  hint

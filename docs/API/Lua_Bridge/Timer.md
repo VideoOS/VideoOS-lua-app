@@ -3,13 +3,13 @@ Timer 是OS_Lua系统中的定时器组件。
 
 # API
 
-[delay](#delay)
-[repeat ](#repeat )
-[repeatCount ](#repeatCount )
-[interval](#interval)
-[start](#start)
-[callback](#callback)
-[cancel](#cancel)
+* [delay](#delay)
+* [repeat ](#repeat )
+* [repeatCount ](#repeatCount )
+* [interval](#interval)
+* [start](#start)
+* [callback](#callback)
+* [cancel](#cancel)
 
 
 ## delay

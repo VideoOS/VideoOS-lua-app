@@ -1,18 +1,18 @@
 使用该组件可以在lua中展示svga图片，该组件桥接了Svga插件的基础API供lua文件使用
 # API
 
-[svga ](#svga)
-[loops ](#loops)
-[fps](#fps)
-[frames ](#frames)
-[readyToPlay](#readyToPlay)
-[startAnimation ](#startAnimation)
-[stopAnimation](#stopAnimation)
-[pauseAnimation](#pauseAnimation)
-[svgaCallback ](#svgaCallback)
-[isAnimating ](#isAnimating)
-[stepToFrame](#stepToFrame)
-[stepToPercentage](#stepToPercentage)
+* [svga ](#svga)
+* [loops ](#loops)
+* [fps](#fps)
+* [frames ](#frames)
+* [readyToPlay](#readyToPlay)
+* [startAnimation ](#startAnimation)
+* [stopAnimation](#stopAnimation)
+* [pauseAnimation](#pauseAnimation)
+* [svgaCallback ](#svgaCallback)
+* [isAnimating ](#isAnimating)
+* [stepToFrame](#stepToFrame)
+* [stepToPercentage](#stepToPercentage)
 
 
 

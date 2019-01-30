@@ -1,9 +1,9 @@
 该组件使得lua文件拥有监听和控制Mqtt相关业务的能力。
 # API
 
-[startMqtt ](#startMqtt)
-[stopMqtt](#stopMqtt)
-[mqttCallback ](#mqttCallback)
+* [startMqtt ](#startMqtt)
+* [stopMqtt](#stopMqtt)
+* [mqttCallback ](#mqttCallback)
 
 ## startMqtt
 | api  |参数   |返回参数   |平台   |备注|

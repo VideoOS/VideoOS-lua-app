@@ -2,11 +2,11 @@ ScrollView 是OS_Lua系统中的基础列表组件。相当于iOS的UIScrollView
 
 # API
 
-[contentSize](#contentSize)
-[offset](#offset)
-[contentInset](#contentInset)
-[showScrollIndicator](#showScrollIndicator)
-[isRefreshing](#isRefreshing)
+* [contentSize](#contentSize)
+* [offset](#offset)
+* [contentInset](#contentInset)
+* [showScrollIndicator](#showScrollIndicator)
+* [isRefreshing](#isRefreshing)
 
 
 

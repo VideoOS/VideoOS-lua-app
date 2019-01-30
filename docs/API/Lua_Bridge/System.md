@@ -2,17 +2,17 @@
 
 # API
 
-[ios ](#ios)
-[android ](#android)
-[vmVersion](#vmVersion)
-[osVersion ](#osVersion)
-[platform ](#platform)
-[scale ](#scale)
-[device](#device)
-[screenSize](#screenSize)
-[network ](#network)
-[gc ](#gc)
-[keepScreenOn](#keepScreenOn)
+* [ios ](#ios)
+* [android ](#android)
+* [vmVersion](#vmVersion)
+* [osVersion ](#osVersion)
+* [platform ](#platform)
+* [scale ](#scale)
+* [device](#device)
+* [screenSize](#screenSize)
+* [network ](#network)
+* [gc ](#gc)
+* [keepScreenOn](#keepScreenOn)
 
 
 ## ios

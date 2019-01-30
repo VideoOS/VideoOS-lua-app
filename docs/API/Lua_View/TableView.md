@@ -3,14 +3,14 @@ TableView 是OS_Lua系统中的基础列表组件。相当于Android的ListView 
 
 # API
 
-[reload](#reload)
-[showScrollIndicator](#showScrollIndicator)
-[scrollToTop](#scrollToTop)
-[scrollToCell](#scrollToCell)
-[miniSpacing](#miniSpacing)
-[lazyLoad](#lazyLoad)
-[header](#header)
-[footer](#footer)
+* [reload](#reload)
+* [showScrollIndicator](#showScrollIndicator)
+* [scrollToTop](#scrollToTop)
+* [scrollToCell](#scrollToCell)
+* [miniSpacing](#miniSpacing)
+* [lazyLoad](#lazyLoad)
+* [header](#header)
+* [footer](#footer)
 
 
 ## reload

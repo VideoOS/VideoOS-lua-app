@@ -2,17 +2,17 @@ WebView 是OS_Lua系统中的html组件。
 
 # API
 
-[loadUrl](#loadUrl)
-[canGoBack](#canGoBack)
-[canGoForward](#canGoForward)
-[goBack](#goBack)
-[goForward](#goForward)
-[reload](#reload)
-[title](#title)
-[isLoading](#isLoading)
-[stopLoading](#stopLoading)
-[url](#url)
-[pullRefreshEnable](#pullRefreshEnable)
+* [loadUrl](#loadUrl)
+* [canGoBack](#canGoBack)
+* [canGoForward](#canGoForward)
+* [goBack](#goBack)
+* [goForward](#goForward)
+* [reload](#reload)
+* [title](#title)
+* [isLoading](#isLoading)
+* [stopLoading](#stopLoading)
+* [url](#url)
+* [pullRefreshEnable](#pullRefreshEnable)
 
 
 ## loadUrl

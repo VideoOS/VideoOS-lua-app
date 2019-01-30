@@ -2,12 +2,12 @@
 
 # API
 
-[onPageWillAppear ](#onPageWillAppear)
-[onPageDidAppear](#onPageDidAppear)
-[onPagePause ](#onPagePause)
-[onPageWillDisappear](#onPageWillDisappear)
-[onPageDidDisappear ](#onPageDidDisappear)
-[onPageDestroy](#onPageDestroy)
+* [onPageWillAppear ](#onPageWillAppear)
+* [onPageDidAppear](#onPageDidAppear)
+* [onPagePause ](#onPagePause)
+* [onPageWillDisappear](#onPageWillDisappear)
+* [onPageDidDisappear ](#onPageDidDisappear)
+* [onPageDestroy](#onPageDestroy)
 
 
 

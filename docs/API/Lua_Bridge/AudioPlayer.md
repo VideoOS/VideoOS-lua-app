@@ -2,15 +2,15 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 
 
 # API
-[play](#play)
-[pause ](#pause )
-[resume](#resume)
-[stop](#stop)
-[seekTo](#seekTo)
-[callback](#callback)
-[playing](#playing)
-[pausing](#pausing)
-[looping](#looping)
+* [play](#play)
+* [pause ](#pause )
+* [resume](#resume)
+* [stop](#stop)
+* [seekTo](#seekTo)
+* [callback](#callback)
+* [playing](#playing)
+* [pausing](#pausing)
+* [looping](#looping)
 
 
 ## play
