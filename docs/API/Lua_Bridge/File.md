@@ -3,7 +3,7 @@ File是OS_Lua系统中的文件操作组件
 
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |------------ |
-|   save     |  path: String<br  data: Data <br&callback: LuaFunction or<br& data: Data <br&path: String<br&callback: LuaFunction    |  -   |   -  |  保存data内数据到path指定的文件内，文件名支持子目录或者上级目录     |
+|   save     |  path: String<br>data: Data <br&callback: LuaFunction or<br& data: Data <br&path: String<br&callback: LuaFunction    |  -   |   -  |  保存data内数据到path指定的文件内，文件名支持子目录或者上级目录     |
 
 例:
 ```lua
