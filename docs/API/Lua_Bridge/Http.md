@@ -56,8 +56,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | get(url,table,function)   |   url:地址，table:请求参数，function:请求回调  |   －| -|   http的get请求|
 
-```
-例：
+例:
+```lua
 Native:get("http://.....", {k1=v1,k2=v2}, function(data)
 --data 为网络返回数据
 end)
@@ -68,8 +68,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | post(url,table,function)   |   url:地址，table:请求参数，function:请求回调  |   －| -|   http的post请求|
 
-```
-例：
+例:
+```lua
 Native:post("http://....", {k1=v1,k2=v2}, function(data)
 --data 为网络返回数据
 end)
@@ -80,8 +80,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | delete(url,table,function)   |   url:地址，table:请求参数，function:请求回调  |   －| -|   http的delete请求|
 
-```
-例：
+例:
+```lua
 Native:delete("http://......", {k1=v1,k2=v2}, function(data)
 --data 为网络返回数据
 end)
@@ -92,8 +92,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | put(url,table,function)   |   url:地址，table:请求参数，function:请求回调  |   －| -|   http的put请求|
 
-```
-例：
+例:
+```lua
 Native:put("http://......", {k1=v1,k2=v2}, function(data)
 --data 为网络返回数据
 end)
@@ -105,8 +105,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | upload(url,filePath,function)   |   url:地址，filePath:文件路径，function:请求回调  |   －| -|   文件上传|
 
-```
-例：
+例:
+```lua
 Native:upload("http://......","file://xxx/xxx/test.jpg", function(data)
 --data 为网络返回数据
 end)
@@ -117,107 +117,128 @@ end)
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    code    |    -  |  -   |  IOS   |  http响应的code     |
 
-    例:
-    http = Http()
-	http:code()
+例:
+```lua
+http = Http()
+http:code()
+```
 
 ## data
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |  data      |    -  |    - |  IOS   |   http响应的数据体(数据块类型)    |
 
-    例:
-    http = Http()
-	http:data()
+例:
+```lua
+http = Http()
+http:data()
+```
 
 ## header
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    header    |    -  |   -  |   IOS  |   http响应的头信息    |
 
-    例:
-    http = Http()
-	http:header()
+例:
+```lua
+http = Http()
+http:header()
+```
 
 ## cancel
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   cancel     |   -   |  -   |   -  |   中止     |
 
-    例:
-    http = Http()
-	http:cancel()
+例:
+```lua
+http = Http()
+http:cancel()
+```
 
 ## request
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   request     |    -  |   -  |   Android   |   请求     |
 
-    例:
-    http = Http()
-	http:request()
+例:
+```lua
+http = Http()
+http:request()
+```
 
 ## callback
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    callback    |    v: LuaFunction  |  -   |   Android   |      请求回调 |
 
-    例:
-    http = Http()
-	http:callback(
-	    local str = tostring( http:data() );
-        local object = Json:toTable(str);
-		print(object);
-	)
+例:
+```lua
+http = Http()
+http:callback(
+    local str = tostring( http:data() );
+    local object = Json:toTable(str);
+	print(object);
+)
+```
 
 ## params
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    params    |  v: LuaTable    |   v  |  Android    |  请求参数     |
 
-    例:
-    http = Http()
-	http:params({       
-		"k1": "v1",
-        "k2": "v2"
-	})
+例:
+```lua
+http = Http()
+http:params({       
+	"k1": "v1",
+    "k2": "v2"
+})
+```
 
 ## timeout
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   timeout     |   v: Number   |  v   |   Android  |   超时时间    |
 
-    例:
-    http = Http()
-	http:timeout(30)
+例:
+```lua
+http = Http()
+http:timeout(30)
+```
 
 ## retryTimes
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |  retryTimes      |    v: Number  |  v   |   Android  |    重试次数   |
 
-    例:
-    http = Http()
-	http:retryTimes(5)
+例:
+```lua
+http = Http()
+http:retryTimes(5)
+```
 
 ## method
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   method     |   v: String, get/post   |   v  |   Android   |   设置请求方法    |
 
-    例:
-    http = Http()
-	http:method("POST")
+例:
+```lua
+http = Http()
+http:method("POST")
+```
 
 ## url
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    url    |   v: String   |  v    |   Android   |    设置请求Url   |
 
-    例:
-    http = Http()
-	http:url("http://luaview.github.io")
-
+例:
+```lua
+http = Http()
+http:url("http://luaview.github.io")
+```
 
 
 
