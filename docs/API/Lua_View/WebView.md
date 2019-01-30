@@ -68,6 +68,7 @@ webView:goBack()
 ```lua
 webView = WebView();
 webView:goForward()
+```
 
 ## reload
 | api  |参数   |返回参数   |平台   |备注|
