@@ -91,7 +91,7 @@ animation:start()
 ## alpha
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    alpha    |   v0: Number<br>v1: Number     | -    |  -   |   设置alpha动画     |
+|    alpha    |   v0: Number<br/>v1: Number     | -    |  -   |   设置alpha动画     |
 
 例:
 ```lua
@@ -103,7 +103,7 @@ animation:alpha(0.5,3)
 ## rotation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    rotation    |   v0: Number<br>v1: Number    | -    |  -   |    设置旋转动画    |
+|    rotation    |   v0: Number<br/>v1: Number    | -    |  -   |    设置旋转动画    |
 
 例:
 ```lua
@@ -115,7 +115,7 @@ animation:rotation(30,4)
 ## scale
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   scale     |   x: Number<br>: Number    | -    |  -   |   设置缩放动画(x轴缩放比、y轴缩放比)    |
+|   scale     |   x: Number<br/>: Number    | -    |  -   |   设置缩放动画(x轴缩放比、y轴缩放比)    |
 
 例:
 ```lua
@@ -150,7 +150,7 @@ animation:scaleY(4)
 ## translation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   translation     |   x: Number<br>y: Number   | -    |  -   |   设置x轴、y轴位移动画    |
+|   translation     |   x: Number<br/>y: Number   | -    |  -   |   设置x轴、y轴位移动画    |
 
 例:
 ```lua
@@ -232,11 +232,11 @@ animation:interpolator(Interplator:ACCELERATE)
 	2	ACCELERATE	-	加速插值
 	3	ANTICIPATE	-	预期插值
 	4	ANTICIPATE_OVERSHOOT	-	预期弹性插值
-	5	BOUNCE	Android	回弹插值
-	6	CYCLE	Android	环形插值
-	7	DECELERATE	-	减速插值
-	8	LINEAR	-	线性插值
-	9	OVERSHOOT	Android	弹性插值
+	5	BOUNCE -	回弹插值（Android）
+	6	CYCLE -  环形插值（Android）
+	7	DECELERATE  - 减速插值
+	8	LINEAR  - 线性插值
+	9	OVERSHOOT	- 弹性插值（Android）
 
 ## cancel
 | api  |参数   |返回参数   |平台   |备注|

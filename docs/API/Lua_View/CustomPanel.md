@@ -1,31 +1,34 @@
-CustomPanel 是OS_Lua系统中的自定义组件。<br& -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
+CustomPanel 是OS_Lua系统中的自定义组件。
 
-
+## nativeView
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   nativeView     |  -    |   -  |  -   |   获取NativeView    |
 
-    例:
-    CustomPanel = CustomPanel()
-	CustomPanel:nativeView()
+例:
+```lua
+CustomPanel = CustomPanel()
+CustomPanel:nativeView()
+```
 
+## getNativeView
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    getNativeView    |    -  |  -   |  -   |  获取NativeView     |
 
-    例:
-    CustomPanel = CustomPanel()
-	CustomPanel:getNativeView
+例:
+```lua
+CustomPanel = CustomPanel()
+CustomPanel:getNativeView
+```
 
-`供第三方扩展用，不可直接创建。第三方通过扩展CustomPanel，实现已有的 Native UI 组件与 lua 互操作。`
-
-`  扩展后的CustomPanel，有所有View容器的API，如 frame、size、backgroundColor 等。`
+供第三方扩展用，不可直接创建。第三方通过扩展CustomPanel，实现已有的 Native UI 组件与 lua 互操作。
+扩展后的CustomPanel，有所有View容器的API，如 frame、size、backgroundColor 等。
 
 ####  CustomPanel 扩展 - Android
 
-```lua
 1. 扩展LVCustomPanel，创建Native UI，并将创建出来的View添加到CustomPanel里
-
+```java
 public class CustomLoading extends LVCustomPanel {
 
     public CustomLoading(Globals globals, LuaValue metaTable, Varargs varargs) {
@@ -41,22 +44,18 @@ public class CustomLoading extends LVCustomPanel {
         addView(customLoading, layoutParams);
     }
 }
+```
 
 2. 使用LuaView对象初始化的时候注册该 CustomPanel
-
+```java
 luaview.registerPanel(CustomLoading.class)
-
+```
 或
-
+```java
 luaview.registerPanel("CustomLoading", CustomLoading.class)
-
+```
 3. 在lua里使用该 CustomPanel，CustomPanel有所有View的api
-
+```java
 local loading = CustomLoading()
 loading.frame(0, 0, 100, 100)
 ```
-
-
-
-
-
