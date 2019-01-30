@@ -1,7 +1,7 @@
-CollectionView 是OS_Lua系统中的基础列表组件。相当于Android的RecyclerView, iOS的UICollectionView。
+CollectionView 是OS_Lua系统中的基础列表组件。相当于Android的RecyclerView, iOS的UICollectionView。 
 
 
-[========]
+
 ```lua
 -- CollectionView 例子
 local cv = CollectionView {
@@ -78,78 +78,82 @@ local cv = CollectionView {
     }
 ```
 
-[========]
-
 
 # API
 
-[reload ](#reload )
-[showScrollIndicator](#showScrollIndicator )
-[scrollToTop](#scrollToTop)
-[scrollToCell](#scrollToCell)
-[miniSpacing](#miniSpacing)
-[lazyLoad](#lazyLoad)
+* [reload ](#reload )
+* [showScrollIndicator](#showScrollIndicator )
+* [scrollToTop](#scrollToTop)
+* [scrollToCell](#scrollToCell)
+* [miniSpacing](#miniSpacing)
+* [lazyLoad](#lazyLoad)
 
 
-##reload
+## reload
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
-|    reload    |   section: Number <br&row: Number   |   -  |    - |   Android支持参数    |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|    reload    |   section: Number <br/>row: Number   |   -  |    - |   Android支持参数    |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:reload() -- IOS
-	collectionview:reload(3,2)--Android
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:reload() -- IOS
+collectionview:reload(3,2) --Android
+```
 
-##showScrollIndicator
+## showScrollIndicator
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    showScrollIndicator    |  v: Boolean    | v    | -    |    是否显示滚动条信息   |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:showScrollIndicator()
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:showScrollIndicator()
+```
 
 
-##scrollToTop
+## scrollToTop
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
-|  scrollToTop      |   offset: Number<br&animate: Boolean   | -    |   -  |    滚动到顶部(offset间隔，animate是否动画)   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|  scrollToTop      |   offset: Number<br/>animate: Boolean   | -    |   -  |    滚动到顶部(offset间隔，animate是否动画)   |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:scrollToTop(3,ture)
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:scrollToTop(3,ture)
+```
 
-##scrollToCell
+## scrollToCell
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
-|    scrollToCell    |  section: Number <br& rowInSection: Number <br& offset: Number <br& animate: Boolean   |  -   |  -   |    滚动到指定cell，offset间隔，animate是否动画   |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|    scrollToCell    |  section: Number <br/> rowInSection: Number <br/> offset: Number <br/> animate: Boolean   |  -   |  -   |    滚动到指定cell，offset间隔，animate是否动画   |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:scrollToCell(3,2,1,ture)
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:scrollToCell(3,2,1,ture)
+```
 
-##miniSpacing
+## miniSpacing
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    miniSpacing    |   space: Number   |   space   |  -   |   cell间隙    |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:miniSpacing(4)
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:miniSpacing(4)
+```
 
 
-##lazyLoad
+## lazyLoad
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    lazyLoad    |   v: Boolean   | -    |   Android   |   是否懒加载Cell    |
 
-    例:
-    local collectionview = CollectionView()
-	collectionview:lazyLoad(ture)
-
-
-
-
-
-
+例:
+```lua
+local collectionview = CollectionView()
+collectionview:lazyLoad(ture)
+```

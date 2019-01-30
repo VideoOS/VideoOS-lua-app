@@ -35,90 +35,102 @@ pagerView = PagerView{
 
 # API
 
-[reload](#reload)
-[indicator](#indicator)
-[currentPage](#currentPage)
-[currentItem](#currentItem)
-[autoScroll ](#autoScroll )
-[looping ](#looping )
-[previewSide](#previewSide)
-[showScrollBar](#showScrollBar)
+* [reload](#reload)
+* [indicator](#indicator)
+* [currentPage](#currentPage)
+* [currentItem](#currentItem)
+* [autoScroll ](#autoScroll )
+* [looping ](#looping )
+* [previewSide](#previewSide)
+* [showScrollBar](#showScrollBar)
 
-##reload
+## reload
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  reload      |   -   |  -   |  -   |     重新加载数据  |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:reload()
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:reload()
+```
 
-##indicator
+## indicator
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    indicator    |  v: [PagerIndicator](https://www.showdoc.cc/web/#/oslua?page_id=559009569098584)    |   -  |  -   |    设置页面组指示器   |
 
-    例:
-    pagerView  = PagerView ()
-	indicator = PagerIndicator()
-	indicator:pageColor(0xff00FF)
-	pagerView:indicator(indicator)
-	indicator:frame(0,10,scrW,100)
+例:
+```lua
+pagerView  = PagerView ()
+indicator = PagerIndicator()
+indicator:pageColor(0xff00FF)
+pagerView:indicator(indicator)
+indicator:frame(0,10,scrW,100)
+```
 
-##currentPage
+## currentPage
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    currentPage    |  v: Number    |   v  |   -  |   设置/获取当前页    |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:currentPage(3)
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:currentPage(3)
+```
 
-##currentItem
+## currentItem
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    currentItem    |   v: Number   |  v   |  -   |    设置/获取当前页    |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:currentItem(2)
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:currentItem(2)
+```
 
-##autoScroll
+## autoScroll
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |     autoScroll   | duration: Number     |   -  |  -   |   自动轮播    |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:autoScroll(1)
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:autoScroll(1)
+```
 
-##looping
+## looping
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   looping     |   v: Boolean   |   v   |  -   |    自动轮播   |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:looping(ture)
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:looping(ture)
+```
 
-##previewSide
+## previewSide
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   previewSide     |   l: Number<br&r: Number   |  -   |  -   |     支持左右透出预览  |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:previewSide(10,20)
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:previewSide(10,20)
+```
 
-##showScrollBar
+## showScrollBar
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    showScrollBar    |   -   |  -   |  IOS   |   是否显示类似CollectionView的滚动条    |
 
-    例:
-    pagerView  = PagerView ()
-	pagerView:showScrollBar(ture)
-
-
-
-
+例:
+```lua
+pagerView  = PagerView ()
+pagerView:showScrollBar(ture)
+```
