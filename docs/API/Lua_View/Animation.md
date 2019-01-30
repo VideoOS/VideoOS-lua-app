@@ -57,7 +57,7 @@ Animation().with(view).translation(100, -100).duration(3).interpolator(Interpola
 [onUpdate](#onUpdate)
 [onResume](#onResume)
 
-##with
+## with
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    with    |  v: View    | -    |  -   |   设置动画target    |
@@ -77,7 +77,7 @@ view:callback({
 animation:with(view)
 ```
 
-##start
+## start
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |  start      |   -   | -    |  -   |   开始动画     |
@@ -88,7 +88,7 @@ animation= Animation()
 animation:start()
 ```
 
-##alpha
+## alpha
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    alpha    |   v0: Number<br>v1: Number     | -    |  -   |   设置alpha动画     |
@@ -100,7 +100,7 @@ animation:alpha(0.5,3)
 ```
 
 
-##rotation
+## rotation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    rotation    |   v0: Number<br>v1: Number    | -    |  -   |    设置旋转动画    |
@@ -112,7 +112,7 @@ animation:rotation(30,4)
 ```
 
 
-##scale
+## scale
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   scale     |   x: Number<br>: Number    | -    |  -   |   设置缩放动画(x轴缩放比、y轴缩放比)    |
@@ -124,7 +124,7 @@ animation:scale(10,10)
 ```
 
 
-##scaleX
+## scaleX
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   scaleX     |  x: Number    | -    |  -   |    设置x轴缩放动画   |
@@ -136,7 +136,7 @@ animation:scaleX(4)
 ```
 
 
-##scaleY
+## scaleY
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   scaleY     |  y: Number    | -    |  -   |   设置y轴缩放动画    |
@@ -147,7 +147,7 @@ animation= Animation()
 animation:scaleY(4)
 ```
 
-##translation
+## translation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   translation     |   x: Number<br>: Number   | -    |  -   |   设置x轴、y轴位移动画    |
@@ -158,7 +158,7 @@ animation= Animation()
 animation:translation(3,4)
 ```
 
-##translationX
+## translationX
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   translationX     |    x: Number  | -    |  -   |  设置x轴位移动画     |
@@ -169,7 +169,7 @@ animation= Animation()
 animation:translationX(23)
 ```
 
-##translationY
+## translationY
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   translationY     |   y: Number   | -    |  -   |   设置y轴位移动画    |
@@ -180,7 +180,7 @@ animation= Animation()
 animation:translationY(5)
 ```
 
-##duration
+## duration
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   duration     |   time: Number   | -    |  -   |   设置动画时长    |
@@ -192,7 +192,7 @@ animation:duration(0.25)
 ```
 
 
-##delay
+## delay
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   delay     |  time: Number    | -    |  -   |   设置动画启动延时    |
@@ -204,7 +204,7 @@ animation:delay(3)
 ```
 
 
-##repeatCount
+## repeatCount
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    repeatCount    |   count: Number   | -    |  -   |     设置动画重复测试（<0表示一直重复）  |
@@ -216,7 +216,7 @@ animation:repeatCount(3)
 ```
 
 
-##interpolator
+## interpolator
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    interpolator    |  v: Interplator    | -    |  -   |   插值器    |
@@ -238,7 +238,7 @@ animation:interpolator(Interplator:ACCELERATE)
 	8	LINEAR	-	线性插值
 	9	OVERSHOOT	Android	弹性插值
 
-##cancel
+## cancel
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   cancel     |    -  | -    |  -   |    取消动画   |
@@ -249,7 +249,7 @@ animation= Animation()
 animation:cancel()
 ```
 
-##pause
+## pause
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |     pause   |  -    | -    |  -   |     暂停动画  |
@@ -261,7 +261,7 @@ animation:pause()
 ```
 
 
-##isPaused
+## isPaused
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    isPaused    |    -  | v: Boolean  |  -   |   动画是否暂停    |
@@ -272,7 +272,7 @@ animation= Animation()
 animation:isPaused()
 ```
 
-##isRunning
+## isRunning
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   isRunning     |   -   | v: Boolean  |  -   |   动画是否运行    |
@@ -283,7 +283,7 @@ animation= Animation()
 animation:isRunning()
 ```
 
-##resume
+## resume
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |      resume  |   -   | -    |  -   |  恢复动画     |
@@ -295,7 +295,7 @@ animation:resume()
 ```
 
 
-##reverses
+## reverses
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    reverses    |   v: Boolean   | -    |  -   |   动画重复播放时是否反转    |
@@ -307,7 +307,7 @@ animation:reverses(ture)
 ```
 
 
-##values
+## values
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    values    |   v: Number[]   | -    |  -   |  设置动画用到的参数     |
@@ -319,7 +319,7 @@ animation:values(2)
 ```
 
 
-##callback
+## callback
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   callback     |   v: LuaTable   | -    |  -   |     设置动画的回调  |
@@ -331,7 +331,7 @@ animation:callback({})
 ```
 
 
-##onStart
+## onStart
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   onStart     |   v: LuaFunction   | -    |  -   |    动画开始回调   |
@@ -346,7 +346,7 @@ animation:onStart(
 )
 ```
 
-##onEnd
+## onEnd
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    onEnd    |   v: LuaFunction   |   -  |   -  |    动画结束回调   |
@@ -361,7 +361,7 @@ animation:onEnd(
 )
 ```
 	
-##onRepeat
+## onRepeat
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   onRepeat     |   v: LuaFunction   |   -  |   -  |   动画重复回调    |
@@ -374,9 +374,9 @@ animation:onRepeat(
         print("Repeat")
     end
 )
-```lua
+```
 
-##onCancel
+## onCancel
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   onCancel     |   v: LuaFunction   |   -  |   -  |  动画取消回调     |
@@ -391,7 +391,7 @@ animation:onCancel(
 )
 ```
 
-##onPause
+## onPause
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    onPause    |   v: LuaFunction   |   -  |   -  |   动画暂停回调    |
@@ -406,7 +406,7 @@ animation:onPause(
 )
 ```
 
-##onUpdate
+## onUpdate
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |  onUpdate      |   v: LuaFunction   |   -  |   Android   |    动画状态更新回调   |
@@ -421,7 +421,7 @@ animation:onUpdate(
 )
 ```
 
-##onResume
+## onResume
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   onResume     |   v: LuaFunction   |   -  |   -  | 动画恢复回调      |
