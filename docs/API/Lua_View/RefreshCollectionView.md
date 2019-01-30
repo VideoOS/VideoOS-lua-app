@@ -1,4 +1,4 @@
-RefreshCollectionView 是OS_Lua系统中的可刷新列表组件。相当于Android的RecyclerView, iOS的UICollectionView。->[CollectionView](https://www.showdoc.cc/web/#/oslua?page_id=548875552059371) -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
+RefreshCollectionView 是OS_Lua系统中的可刷新列表组件。相当于Android的RecyclerView, iOS的UICollectionView。
 
 ```lua
 -- RefreshCollectionView 例子
@@ -15,47 +15,51 @@ local cv = RefreshCollectionView {
 
 # API
 
-[initRefreshing](#initRefreshing)
-[isRefreshing](#isRefreshing)
-[startRefreshing](#startRefreshing)
-[stopRefreshing](#stopRefreshing)
+* [initRefreshing](#initRefreshing)
+* [isRefreshing](#isRefreshing)
+* [startRefreshing](#startRefreshing)
+* [stopRefreshing](#stopRefreshing)
 
-##initRefreshing
+## initRefreshing
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  initRefreshing      |  -    |  -   |   iOS  |    初始化刷新组件   |
 
-    例:
-    collectionView  = RefreshCollectionView ()
-	collectionView:initRefreshing()
+例:
+```lua
+collectionView  = RefreshCollectionView ()
+collectionView:initRefreshing()
+```
 
-##isRefreshing
+## isRefreshing
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   isRefreshing     |   -   |   v: Boolean  |   -  |    是否正在刷新   |
 
-    例:
-    collectionView  = RefreshCollectionView ()
-	collectionView:isRefreshing()
+例:
+```lua
+collectionView  = RefreshCollectionView ()
+collectionView:isRefreshing()
+```
 
-##startRefreshing
+## startRefreshing
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   startRefreshing     |   -   |  -   |  -   |    开始刷新   |
 
-    例:
-    collectionView  = RefreshCollectionView ()
-	collectionView:startRefreshing()
+例:
+```lua
+collectionView  = RefreshCollectionView ()
+collectionView:startRefreshing()
+```
 
-##stopRefreshing
+## stopRefreshing
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  stopRefreshing      |     - |   -  |   -  |   停止刷新    |
 
-    例:
-    collectionView  = RefreshCollectionView ()
-	collectionView:stopRefreshing()
-
-
-
-
+例:
+```lua
+collectionView  = RefreshCollectionView ()
+collectionView:stopRefreshing()
+```

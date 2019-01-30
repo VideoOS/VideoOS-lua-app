@@ -1,8 +1,7 @@
-WebView 是OS_Lua系统中的html组件。 -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
-
+WebView 是OS_Lua系统中的html组件。
 
 # API
-<!-- TOC --&
+
 [loadUrl](#loadUrl)
 [canGoBack](#canGoBack)
 [canGoForward](#canGoForward)
@@ -14,106 +13,127 @@ WebView 是OS_Lua系统中的html组件。 -&<u& [View](https://www.showdoc.cc/w
 [stopLoading](#stopLoading)
 [url](#url)
 [pullRefreshEnable](#pullRefreshEnable)
-<!-- /TOC --&
 
-##loadUrl
+
+## loadUrl
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    loadUrl    |  v: String    |   -  |  -   |   加载url    |
 
-    例:
-    webView = WebView();
-	webView:loadUrl("http://www.taobao.com")
+例:
+```lua
+webView = WebView();
+webView:loadUrl("http://www.taobao.com")
+```
 
-##canGoBack
+## canGoBack
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   canGoBack     |  -    | v: Boolean    |   -  |    是否可以回退   |
 
-    例:
-    webView = WebView();
-	webView:canGoBack()
+例:
+```lua
+webView = WebView();
+webView:canGoBack()
+```
 
-##canGoForward
+## canGoForward
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   canGoForward     |   -   |  v: Boolean   |    - |    是否可以前进   |
 
-    例:
-    webView = WebView();
-	webView:canGoForward()
+例:
+```lua
+webView = WebView();
+webView:canGoForward()
+```
 
-##goBack
+## goBack
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    goBack    |  -    |  -   |  -   |   回退一页    |
 
-    例:
-    webView = WebView();
-	webView:goBack()
+例:
+```lua
+webView = WebView();
+webView:goBack()
+```
 
-##goForward
+## goForward
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   goForward     |   -   |  -   |  -   |    前进一页   |
 
-    例:
-    webView = WebView();
-	webView:goForward()
+例:
+```lua
+webView = WebView();
+webView:goForward()
 
-##reload
+## reload
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   reload     |  -    | -    |   -  |  重新加载     |
 
-    例:
-    webView = WebView();
-	webView:reload()
+例:
+```lua
+webView = WebView();
+webView:reload()
+```
 
-##title
+## title
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   title     |   -   |  v: String   |  -   |    获取Title   |
 
-    例:
-    webView = WebView();
-	webView:title()
+例:
+```lua
+webView = WebView();
+webView:title()
+```
 
-##isLoading
+## isLoading
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  isLoading      |   -   |  v: Boolean   |   -  |   是否正在加载    |
 
-    例:
-    webView = WebView();
-	webView:isLoading()
+例:
+```lua
+webView = WebView();
+webView:isLoading()
+```
 
-##stopLoading
+## stopLoading
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |  stopLoading      |  -    |   -  |  -   |    停止加载   |
 
-    例:
-    webView = WebView();
-	webView:stopLoading()
+例:
+```lua
+webView = WebView();
+webView:stopLoading()
+```
 
-##url
+## url
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   url    |    -  |  v: String   |  -   |   获取url    |
 
-    例:
-    webView = WebView();
-	webView:url()
+例:
+```lua
+webView = WebView();
+webView:url()
+```
 
-##pullRefreshEnable
+## pullRefreshEnable
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    pullRefreshEnable    |  v: Boolean    |  -   |   -  |   是否可以下拉刷新    |
 
-    例:
-    webView = WebView();
-	webView:pullRefreshEnable()
+例:
+```lua
+webView = WebView();
+webView:pullRefreshEnable()
+```
 
 
 

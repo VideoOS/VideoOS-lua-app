@@ -1,4 +1,4 @@
- StyledString是OS_Lua系统中的富文本组件。
+StyledString是OS_Lua系统中的富文本组件。
 
 
 ```lua
@@ -21,10 +21,11 @@ StyledString(Unicode(0xe607), { fontColor = 0xff00aaff, fontStyle = "bold" })
 - underline: Boolean，是否下划线
 
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    append    |   v: StyledString   |   v  |   -  |  新增一段     |
 
-    例:
-    Styledstring = StyledString()
-	Styledstring:append("12345")
-
+例:
+```lua
+Styledstring = StyledString()
+Styledstring:append("12345")
+```

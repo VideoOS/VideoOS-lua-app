@@ -1,79 +1,89 @@
-LoadingIndicator 是OS_Lua系统中的 加载指示器组件    -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
+LoadingIndicator 是OS_Lua系统中的 加载指示器组件 。
 
 
 # API
-<!-- TOC --&
-[start](#start)
-[isStart](#isStart)
-[startAnimating](#startAnimating)
-[isAnimating](#isAnimating)
-[stop](#stop)
-[stopAnimating](#stopAnimating)
-[color](#color)
-<!-- /TOC --&
 
-##start
+* [start](#start)
+* [isStart](#isStart)
+* [startAnimating](#startAnimating)
+* [isAnimating](#isAnimating)
+* [stop](#stop)
+* [stopAnimating](#stopAnimating)
+* [color](#color)
+
+## start
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   start     |  -    |  -   |  -   |  开始转动     |
 
-    例:
-    loading = LoadingIndicator()
-	loading:start()
+例:
+```lua
+loading = LoadingIndicator()
+loading:start()
+```
 
-##isStart
+## isStart
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   isStart     |   -   |   v: Boolean  |  Android    |  是否开始转动     |
 
-    例:
-    loading = LoadingIndicator()
-	loading:isStart()
+例:
+```lua
+loading = LoadingIndicator()
+loading:isStart()
+```
 
-##startAnimating
+## startAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    startAnimating    |   -   |   -  | Android     |    开始转动   |
 
-    例:
-    loading = LoadingIndicator()
-	loading:startAnimating()
+例:
+```lua
+loading = LoadingIndicator()
+loading:startAnimating()
+```
 
-##isAnimating
+## isAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    isAnimating    |   -   |   v: Boolean  |   -  |   是否在动画中    |
 
-    例:
-    loading = LoadingIndicator()
-	loading:isAnimating()
+例:
+```lua
+loading = LoadingIndicator()
+loading:isAnimating()
+```
 
-##stop
+## stop
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   stop     |   -   |  -   |   -  |   停止动画    |
 
-    例:
-    loading = LoadingIndicator()
-	loading:stop()
+例:
+```lua
+loading = LoadingIndicator()
+loading:stop()
+```
 
-##stopAnimating
+## stopAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    stopAnimating    |   -   |  -   |  Android    |   停止动画    |
 
-    例:
-    loading = LoadingIndicator()
-	loading:stopAnimating()
+例:
+```lua
+loading = LoadingIndicator()
+loading:stopAnimating()
+```
 
-##color
+## color
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   color     |  v: Number    |   v  | -    |   颜色    |
 
-    例:
-    loading = LoadingIndicator()
-	loading:color(0xCCCCCC)
-
-
-
+例:
+```lua
+loading = LoadingIndicator()
+loading:color(0xCCCCCC)
+```

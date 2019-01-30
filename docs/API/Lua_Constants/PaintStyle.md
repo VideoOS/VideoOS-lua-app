@@ -1,4 +1,4 @@
-Canvas画笔样式。参考<u&[Canvas](https://www.showdoc.cc/web/#/oslua?page_id=563006661956597)</u&
+Canvas画笔样式。参考[Canvas](hhttps://github.com/VideoOS/VideoOS-lua-app/blob/master/docs/API/Lua_View/Canvas.md)
 
 
 | ID  | 值  |  平台 | 备至  |
