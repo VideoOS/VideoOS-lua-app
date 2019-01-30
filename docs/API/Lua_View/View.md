@@ -1,7 +1,8 @@
 View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的UIView。其中View是所有View级别控件api的父类。
 
 # API
-<a href="#initParams">initParams</a>
+<a href="#initParams">initParams</a>  
+
 [invalidate](#invalidate)
 [padding](#padding)
 [frame](#frame)
@@ -117,7 +118,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 [children](#children)
 [flexChildren](#flexChildren)
 
-<a name="invalidate">invalidate</a>
+<a name="invalidate">invalidate</a>  
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 | initParams   |   table: LuaTable  |   -| Android |   初始化参数|
