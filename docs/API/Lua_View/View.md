@@ -121,7 +121,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 
 ## initParams
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | initParams   |   table: LuaTable  |   -| Android |   初始化参数|
 
 例:
@@ -131,7 +131,7 @@ TableView().initParams({
 ```
 ## invalidate
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | invalidate    |   - |   -| - |   强制重绘|
 
 例:
@@ -141,8 +141,8 @@ view:invalidate()
 ```
 ##  padding
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| padding    |   left: Number <br&   top: Number<br&  right: Number  <br& bottom: Number  |   -| - |   内边距|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| padding    |   left: Number <br/>   top: Number<br/>  right: Number  <br/> bottom: Number  |   -| - |   内边距|
 
 例:
 ```lua
@@ -152,8 +152,8 @@ view:padding(5, 5, 5, 5)
 ```
 ##  frame
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| frame    |   x: Number<br&   y: Number <br&width: Number<br& height: Number  |  - | - |  View尺寸|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| frame    |   x: Number<br/>   y: Number <br/>width: Number<br/> height: Number  |  - | - |  View尺寸|
 
 例:
 ```lua
@@ -163,8 +163,8 @@ view:frame(5, 5, 5, 5)
 ```
 ##  backgroundColor
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| backgroundColor    |   color: Number<br& alpha: Number  |   color, <br&alpha | - |   背景色&amp;alpha|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| backgroundColor    |   color: Number<br/> alpha: Number  |   color, <br/>alpha | - |   背景色&amp;alpha|
 
 例:
 ```lua
@@ -174,8 +174,8 @@ view:backgroundColor(0xff0000, 0.5)
 ```
 ##  size
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| size    |   width: Number<br& height: Number  |   width, <br&height | - |   尺寸 |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| size    |   width: Number<br/> height: Number  |   width, <br/>height | - |   尺寸 |
 
 例:
 ```lua
@@ -185,8 +185,8 @@ view:size(100, 100)
 ```
 ##  xy
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
-| xy    |  x: Number<br& y: Number  |   x，<br&y| - |   x、y坐标|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+| xy    |  x: Number<br/> y: Number  |   x，<br/>y| - |   x、y坐标|
 
 例:
 ```lua
@@ -196,7 +196,7 @@ view:xy(100, 100)
 ```
 ##  align
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | align  |  aligns[]: Align  | -| - |   设置自身在父容器的布局|
 
 例:
@@ -207,7 +207,7 @@ view:align(Align.RIGHT, Align.BOTTOM)
 ```
 ##  alignLeft
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   alignLeft     |  -    |  -   |   -  |   设置自身位于父容器Left&amp;Top    |
 
 例:
@@ -218,7 +218,7 @@ view:alignLeft()
 ```
 ##  alignTop
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   alignTop     |  -    |  -   |   -  |   设置自身位于父容器Left&amp;Top    |
 
 例:
@@ -483,7 +483,7 @@ view:alignVerticalCenter()
 ##  center
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    center   |    x: Number<br& y: Number  |   x<br&y  |  -   |    中心点坐标   |
+|    center   |    x: Number<br/> y: Number  |   x<br/>y  |  -   |    中心点坐标   |
 
 例:
 ```lua
@@ -848,7 +848,7 @@ view:transform3D(transform1)
 ##  anchorPoint
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    anchorPoint    |  x: Number <br&y: Number    |  -   |  -   |   锚点    |
+|    anchorPoint    |  x: Number <br/>y: Number    |  -   |  -   |   锚点    |
 
 例:
 ```lua
@@ -925,7 +925,7 @@ view:rotation (3.14/2)
 ##  rotationXY
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    rotationXY    |   rx: Number <br&ry: Number   |   rx, ry  |  -   |   根据x坐标和y坐标得到的旋转角度，pivot    |
+|    rotationXY    |   rx: Number <br/>ry: Number   |   rx, ry  |  -   |   根据x坐标和y坐标得到的旋转角度，pivot    |
 
 例:
 ```lua
@@ -936,7 +936,7 @@ local rx,ry=view:rotationXY(5,6)
 ##  scale
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   scale     |  sx: Number <br& sy: Number    |   sx, sy  |  -   |   x，y缩放    |
+|   scale     |  sx: Number <br/> sy: Number    |   sx, sy  |  -   |   x，y缩放    |
 
 例:
 ```lua
@@ -969,7 +969,7 @@ view:scaleY(5)
 ##  translation
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    translation    |  tx: Number <br&ty: Number    | x,y    | -    |  x、y位移     |
+|    translation    |  tx: Number <br/>ty: Number    | x,y    | -    |  x、y位移     |
 
 例:
 ```lua
@@ -1013,7 +1013,7 @@ view:bringToFront()
 ##  scrollTo
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|  scrollTo      |   sx: Number<br&sy: Number   | -    | Android    |  滚动到某个位置     |
+|  scrollTo      |   sx: Number<br/>sy: Number   | -    | Android    |  滚动到某个位置     |
 
 例:
 ```lua
@@ -1024,7 +1024,7 @@ view:scrollTo(2,5)
 ##  scrollBy
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|  scrollBy      |  sx: Number <br&sy: Number    |  -   |  Android   |   移动一段距离    |
+|  scrollBy      |  sx: Number <br/>sy: Number    |  -   |  Android   |   移动一段距离    |
 
 例:
 ```lua
@@ -1079,7 +1079,7 @@ view:offsetY(3)
 ##  scrollXY
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   scrollXY     |   sx: Number<br&sy: Number   |  sx, sy   |    Android |   x、y方向移动到某个位置    |
+|   scrollXY     |   sx: Number<br/>sy: Number   |  sx, sy   |    Android |   x、y方向移动到某个位置    |
 
 例:
 ```lua
@@ -1090,7 +1090,7 @@ view:scrollXY(3,4)
 ##  offsetXY
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   offsetXY     |   sx: Number<br&sy: Number   |  sx, sy   |   Android  |   x、y方向移动到某个位置    |
+|   offsetXY     |   sx: Number<br/>sy: Number   |  sx, sy   |   Android  |   x、y方向移动到某个位置    |
 
 例:
 ```lua
@@ -1101,7 +1101,7 @@ view:offsetXY(3,4)
 ##  offset
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   offset     |   sx: Number<br&sy: Number   | sx, sy    |  Android   |    x、y方向移动到某个位置   |
+|   offset     |   sx: Number<br/>sy: Number   | sx, sy    |  Android   |    x、y方向移动到某个位置   |
 
 例:
 ```lua
@@ -1112,7 +1112,7 @@ view:offset(3,4)
 ##  showScrollIndicator
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|  showScrollIndicator      |  h: Boolean<br&v: Boolean    | h, v    |  Android   |    设置滚动条是否显示（横向、纵向）   |
+|  showScrollIndicator      |  h: Boolean<br/>v: Boolean    | h, v    |  Android   |    设置滚动条是否显示（横向、纵向）   |
 
 例:
 ```lua
@@ -1246,7 +1246,7 @@ end)
 ##  effects
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   effects     |   effect: ViewEffect<br&color: Number<br&alpha: Number   |  effect    |  -   |   设置view的特效    |
+|   effects     |   effect: ViewEffect<br/>color: Number<br/>alpha: Number   |  effect    |  -   |   设置view的特效    |
 
 例:
 ```lua
@@ -1281,7 +1281,7 @@ view:borderDash(4)
 ##  margin
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|   margin     |   l: Number<br&t: Number<br&r: Number<br&b: Number   |  l, t, r, b   |  Android    |   边距    |
+|   margin     |   l: Number<br/>t: Number<br/>r: Number<br/>b: Number   |  l, t, r, b   |  Android    |   边距    |
 
 例:
 ```lua

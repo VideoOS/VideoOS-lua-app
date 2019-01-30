@@ -16,7 +16,7 @@ TableView 是OS_Lua系统中的基础列表组件。相当于Android的ListView 
 ## reload
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|  reload      |    section: Number<br&row: Number  |  -   |  -   | Android支持参数      |
+|  reload      |    section: Number<br/>row: Number  |  -   |  -   | Android支持参数      |
 
 例:
 ```lua
@@ -38,7 +38,7 @@ tab:showScrollIndicator(ture)
 ## scrollToTop
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    scrollToTop    |   offset: Number<br&animate: Boolean   |  -   |  -   |     滚动到顶部(offset间隔，animate是否动画)  |
+|    scrollToTop    |   offset: Number<br/>animate: Boolean   |  -   |  -   |     滚动到顶部(offset间隔，animate是否动画)  |
 
 例:
 ```lua
@@ -49,7 +49,7 @@ tab:scrollToTop(2,ture)
 ## scrollToCell
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-|    scrollToCell    |  section: Number<br&rowInSection: Number<br&offset: Number<br&animate: Boolean    |  -   |  -   |   滚动到指定cell，offset间隔，animate是否动画    |
+|    scrollToCell    |  section: Number<br/>rowInSection: Number<br/>offset: Number<br/>animate: Boolean    |  -   |  -   |   滚动到指定cell，offset间隔，animate是否动画    |
 
 例:
 ```lua
