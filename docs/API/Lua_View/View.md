@@ -676,7 +676,9 @@ view:(hide)
 ```lua
 local view = View()
 local hide=view:(isHide)
+```
 
+## enabled
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |    enabled    |   v: Boolean   |  v   |  -   |  是否可用     |
