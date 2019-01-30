@@ -10,27 +10,27 @@ TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS�
 [maxLength](#maxLength)
 [resignFirstResponder](#resignFirstResponder)
 
-##hint
+## hint
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    hint    |   v: String/StyledString/Unicode   |  v   |  -   |    同placeholder    |
 
     例:
     textFiled = TextField()
 	textFiled:hint("我是输入框")
 
-##placeholder
+## placeholder
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   placeholder     |   v: String/StyledString/Unicode   |   v  |    - |   -     |
 
     例:
     textFiled = TextField()
 	textFiled:placeholder("我是输入框")
 
-##text
+## text
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   text   |   text: String/StyledString/Unicode   |   text:String  |    - |   -     |
 
     例:
@@ -38,9 +38,9 @@ TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS�
 	textFiled:text("我是输入框")
 
 
-##inputType
+## inputType
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   inputType   |   text: String/StyledString/Unicode   |   -  |    - |   键盘样式    |
 
     例:
@@ -53,36 +53,36 @@ TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS�
 	3	visible_password	   26字母键盘
 	'''
 
-##textColor
+## textColor
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   textColor   |   color: Number   |   color   |    - |   颜色   |
 
     例:
     textFiled = TextField()
 	textFiled:textColor("0x000000 ")
 
-##textSize
+## textSize
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   textSize   |   size : Number   |   size    |    - |   字体大小   |
 
     例:
     textFiled = TextField()
 	textFiled:textSize(20)
 
-##maxLength
+## maxLength
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   maxLength   |   Length : Number   |   Length    |    - |   字符最大长度  |
 
     例:
     textFiled = TextField()
 	textFiled:maxLength(20)
 
-##resignFirstResponder
+## resignFirstResponder
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |   resignFirstResponder   |   -   |   -    |    - |   收起键盘  |
 
     例:

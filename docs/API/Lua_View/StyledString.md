@@ -21,7 +21,7 @@ StyledString(Unicode(0xe607), { fontColor = 0xff00aaff, fontStyle = "bold" })
 - underline: Boolean，是否下划线
 
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 |    append    |   v: StyledString   |   v  |   -  |  新增一段     |
 
     例:

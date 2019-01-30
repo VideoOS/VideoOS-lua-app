@@ -1,6 +1,6 @@
 使用该组件可以在lua中展示svga图片，该组件桥接了Svga插件的基础API供lua文件使用
 # API
-<!-- TOC --&
+
 [svga ](#svga)
 [loops ](#loops)
 [fps](#fps)
@@ -13,11 +13,11 @@
 [isAnimating ](#isAnimating)
 [stepToFrame](#stepToFrame)
 [stepToPercentage](#stepToPercentage)
-<!-- /TOC --&
 
-##svga
+
+## svga
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | svga   |   url:String ,readyToPlay:function |   -| -|   设置Svga资源,第二个参数可不传，解析后会自动播放，如果|
 
 ```
@@ -32,9 +32,9 @@ local svgaView = SVGAView()
 --调用方式2：会自动调用startAnimation方法进行播放
  svgaView:svga(“http://xxx/test.svga")
 ```
-##loops
+## loops
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | loops   |   loopCount:Number |   -| -|   设置svga循环次数|
 ```
 例：
@@ -43,9 +43,9 @@ local svgaView = SVGAView()
 
 ```
 
-##fps
+## fps
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | fps   |   -|   Int||   设置svga的 fps值|
 
 ```
@@ -57,9 +57,9 @@ svgaView:svga("http://xxx/fileName.svga",function()
 end)
 ```
 
-##frames
+## frames
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | frames   |   -|   Int||   设置svga的 frames|
 ```
 例：
@@ -70,9 +70,9 @@ svgaView:svga("http://xxx/fileName.svga",function()
 end)
 ```
 
-##readyToPlay
+## readyToPlay
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | readyToPlay   |   -|   -|-|   svga解析完毕回调，此时可以调用svga的播放方法|
 ```
 例：
@@ -86,9 +86,9 @@ svgaView:svga("http://xxx/fileName.svga",function()
 end)
 ```
 
-##startAnimation
+## startAnimation
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | startAnimation   |   -|   -|-|   开始播放svga动画|
 ```
 例：
@@ -99,9 +99,9 @@ local svgaView = SVGAView()
 
 ```
 
-##stopAnimation
+## stopAnimation
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | stopAnimation   |   -|   -|-|   停止播放svga动画|
 ```
 例：
@@ -109,9 +109,9 @@ local svgaView = SVGAView()
  svgaView:stopAnimation()
 ```
 
-##pauseAnimation
+## pauseAnimation
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | pauseAnimation   |   -|   -|-|   暂停播放svga动画|
 ```
 例：
@@ -119,9 +119,9 @@ local svgaView = SVGAView()
  svgaView:pauseAnimation()
 ```
 
-##svgaCallback
+## svgaCallback
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | svgaCallback   |   LuaTable|   -|-|   svga动画的播放状态控制回调|
 ```
 例：
@@ -137,9 +137,9 @@ local svgaView = SVGAView()
    end
  })
 ```
-##isAnimating
+## isAnimating
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | isAnimating   |   -|   -|Boolean|   svga动画是否正在播放|
 ```
 例：
@@ -147,9 +147,9 @@ local svgaView = SVGAView()
  svgaView:isAnimating()
 ```
 
-##stepToFrame
+## stepToFrame
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | stepToFrame   | frames: Int,autoPlay:Boolean|   -|-|   svga指定从多少帧播放|
 ```
 例：
@@ -158,9 +158,9 @@ local svgaView = SVGAView()
 ```
 
 
-##stepToPercentage
+## stepToPercentage
 | api  |参数   |返回参数   |平台   |备注|
-| ------------ | ------------ | ------------ | ------------ |
+| ------------ | ------------ | ------------ | ------------ | ------------ |
 | stepToPercentage   |   frames: Float,autoPlay:Boolean|   -|-|   svga指定从某百分比进度开始播放|
 ```
 例：
