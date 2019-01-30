@@ -18,22 +18,22 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ | ------------ |
 |   play     |  name: String<br&times: Number    |   -  |  -    |   播放（uri，重复次数）    |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:play("http://fm111.img.xiaonei.com/tribe/20070613/10/52/A314269027058MUS.mp3")
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:play("http://fm111.img.xiaonei.com/tribe/20070613/10/52/A314269027058MUS.mp3")
+```
 
 ## pause
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |    pause    |  -    |   -  |  Android    |    暂停播放   |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	pause:pause()
-    ```
+例:
+```lua
+player = AudioPlayer()
+pause:pause()
+```
 
 
 ## resume
@@ -41,11 +41,11 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   resume     |  -    |   -  |  Android    |   恢复播放    |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	pause:resume()
-    ```
+例:
+```lua
+player = AudioPlayer()
+pause:resume()
+```
 
 
 ## stop
@@ -53,11 +53,11 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |    stop    |  -    |   -  |  -    |   停止播放    |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:stop()
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:stop()
+```
 
 
 ## seekTo
@@ -65,11 +65,11 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   seekTo     |  sec: Number    |   -  |  Android    |   到某个位置    |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:seekTo(30)
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:seekTo(30)
+```
 
 
 ## callback
@@ -77,15 +77,15 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   callback     |  v: LuaFunction    |   -  |  Android    |    回调   |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:callback(
-	function()
-	
-	end
-	)
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:callback(
+function()
+
+end
+)
+```
 
 
 ## playing
@@ -93,11 +93,11 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   playing     |  -    |   v: Boolean  |  Android    |  是否播放     |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:playing()
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:playing()
+```
 
 
 ## pausing
@@ -105,22 +105,22 @@ AudioPlayer 是OS_Lua系统中的音频播放器组件。
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   pausing     |  -    |   v: Boolean  |  Android    |  是否暂停     |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:pausing()
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:pausing()
+```
 
 ## looping
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |------------ |
 |   looping     |  -    |   v: Boolean  |  Android    |    是否循环播放   |
 
-    例:
-    ```lua
-    player = AudioPlayer()
-	player:looping()
-    ```
+例:
+```lua
+player = AudioPlayer()
+player:looping()
+```
 
 
 
