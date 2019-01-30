@@ -1,4 +1,4 @@
-Image 是OS_Lua系统中的图片组件。相当于Android的ImageView,iOS的UIImageView。-> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
+Image 是OS_Lua系统中的图片组件。相当于Android的ImageView,iOS的UIImageView。
 
 # API
 

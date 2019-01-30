@@ -1,5 +1,4 @@
-CollectionView 是OS_Lua系统中的基础列表组件。相当于Android的RecyclerView, iOS的UICollectionView。Android: -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) , iOS:-> [ScrollView](https://www.showdoc.cc/web/#/oslua?page_id=548856573448041) -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)  
-
+CollectionView 是OS_Lua系统中的基础列表组件。相当于Android的RecyclerView, iOS的UICollectionView。
 
 
 [========]

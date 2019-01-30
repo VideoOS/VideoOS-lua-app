@@ -1,5 +1,4 @@
-WebView 是OS_Lua系统中的html组件。 -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
-
+WebView 是OS_Lua系统中的html组件。
 
 # API
 <!-- TOC --&

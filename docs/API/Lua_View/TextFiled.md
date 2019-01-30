@@ -1,5 +1,4 @@
-TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS的UITextFiled。-> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
-
+TextFiled 是OS_Lua系统中的输入框组件。相当于Android的Label ,iOS的UITextFiled。
 # API
 
 [hint](#hint)

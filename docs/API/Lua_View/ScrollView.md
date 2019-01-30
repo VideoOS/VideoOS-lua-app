@@ -1,5 +1,4 @@
-ScrollView 是OS_Lua系统中的基础列表组件。相当于iOS的UIScrollView。 -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
-
+ScrollView 是OS_Lua系统中的基础列表组件。相当于iOS的UIScrollView。 
 
 # API
 

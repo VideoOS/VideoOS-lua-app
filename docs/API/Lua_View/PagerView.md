@@ -1,5 +1,4 @@
-PagerView 是OS_Lua系统中的页面组组件（轮播图）。-> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
-
+PagerView 是OS_Lua系统中的页面组组件（轮播图）。
 
 ```lua
 -- PagerView 列子

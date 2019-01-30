@@ -1,4 +1,4 @@
-Label 是OS_Lua系统中的文本组件。相当于Android的TextView,iOS的UILabel。-> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) 。
+Label 是OS_Lua系统中的文本组件。相当于Android的TextView,iOS的UILabel。
 
 # API
 

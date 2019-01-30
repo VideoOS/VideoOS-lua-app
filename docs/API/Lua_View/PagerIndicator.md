@@ -1,4 +1,4 @@
-PagerIndicator 是OS_Lua系统中的页面组指示器组件。<br& -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
+PagerIndicator 是OS_Lua系统中的页面组指示器组件。
 
 
 # API

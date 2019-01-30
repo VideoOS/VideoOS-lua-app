@@ -1,4 +1,4 @@
-RefreshCollectionView 是OS_Lua系统中的可刷新列表组件。相当于Android的RecyclerView, iOS的UICollectionView。->[CollectionView](https://www.showdoc.cc/web/#/oslua?page_id=548875552059371) -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
+RefreshCollectionView 是OS_Lua系统中的可刷新列表组件。相当于Android的RecyclerView, iOS的UICollectionView。
 
 ```lua
 -- RefreshCollectionView 例子

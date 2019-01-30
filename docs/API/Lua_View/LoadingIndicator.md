@@ -1,4 +1,4 @@
-LoadingIndicator 是OS_Lua系统中的 加载指示器组件    -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
+LoadingIndicator 是OS_Lua系统中的 加载指示器组件 。
 
 
 # API

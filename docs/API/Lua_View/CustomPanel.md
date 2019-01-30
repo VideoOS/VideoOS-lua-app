@@ -1,5 +1,4 @@
-CustomPanel 是OS_Lua系统中的自定义组件。<br& -&<u& [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632) </u&
-
+CustomPanel 是OS_Lua系统中的自定义组件。
 
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ |

@@ -1,4 +1,4 @@
-Button 是OS_Lua系统中的按钮组件。相当于Android的Button,iOS的UIButton。-> [Label](https://www.showdoc.cc/web/#/oslua?page_id=548690578324962) -> [View](https://www.showdoc.cc/web/#/oslua?page_id=547028714523632)
+Button 是OS_Lua系统中的按钮组件。相当于Android的Button,iOS的UIButton。
 
 # API
 
