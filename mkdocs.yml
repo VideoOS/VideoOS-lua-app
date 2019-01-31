@@ -1,8 +1,9 @@
 site_name: VideoOS-lua-app
+repo_url: https://github.com/VideoOS/VideoOS-lua-app
 nav:
-  - 'OS_Lua 简介': 'OS_Lua.md'
-  - 'Android集成说明': 'Android.md'
-  - 'iOS集成说明': 'iOS.md'
+  - 'OS_Lua': 'OS_Lua.md'
+  - 'Android': 'Android.md'
+  - 'iOS': 'iOS.md'
   - 'lua_View':
      - 'Alert': 'API/Lua_View/Alert.md'
      - 'Animation': 'API/Lua_View/Animation.md'
