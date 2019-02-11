@@ -1,5 +1,5 @@
 ### Canvas画笔样式
-参考[Canvas](/API/Lua_View/Canvas)
+参考[Canvas](../Lua_View/Canvas.md)
 
 | ID  | 值  |  平台 | 备至  |
 | :------------ | :------------ | :------------ | :------------ |
