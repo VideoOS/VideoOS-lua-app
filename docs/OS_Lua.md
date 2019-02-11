@@ -11,3 +11,9 @@ OS_Lua 使用Lua语言进行代码编写，目前支持两个端：Android和iOS
 
 ## 入口方法
 OS_lua 所有的lua文件运行时，都从show方法开始执行。
+
+```lua
+function show(args)
+    print("first load")
+end
+```
