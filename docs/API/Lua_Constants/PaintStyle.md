@@ -1,5 +1,5 @@
-Canvas画笔样式。参考[Canvas](hhttps://github.com/VideoOS/VideoOS-lua-app/blob/master/docs/API/Lua_View/Canvas.md)
-
+### Canvas画笔样式
+参考[Canvas](/API/Lua_View/Canvas)
 
 | ID  | 值  |  平台 | 备至  |
 | :------------ | :------------ | :------------ | :------------ |

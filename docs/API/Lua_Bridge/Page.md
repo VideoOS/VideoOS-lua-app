@@ -16,8 +16,8 @@
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPageWillAppear   |  LuaFunction|   -|-|    页面刚开始创建时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPageWillAppear(function() 
 
@@ -29,8 +29,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPageDidAppear   |  LuaFunction|   -|-|    页面已经可见时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPageDidAppear(function() 
 
@@ -42,8 +42,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPagePause   |  LuaFunction|   -|-|    页面暂停时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPagePause(function() 
 
@@ -55,8 +55,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPageWillDisappear   |  LuaFunction|   -|iOS|    页面即将不可见时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPageWillDisappear(function() 
 
@@ -68,8 +68,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPageDidDisappear   |  LuaFunction|   -|iOS|    页面不可见时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPageDidDisappear(function() 
 
@@ -82,8 +82,8 @@ end)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | onPageDestroy   |  LuaFunction|   -|iOS|    页面销毁时调用|
 
-```
 例：
+```lua
 local page = Page()
 media:onPageDestroy(function() 
 

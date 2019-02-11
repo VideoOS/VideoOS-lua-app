@@ -129,6 +129,7 @@ View 是OS_Lua系统中最基础的View。相当于Android的ViewGroup，iOS的U
 例:
 ```lua
 TableView().initParams({
+  -- 初始化参数
 })
 ```
 ## invalidate
@@ -150,7 +151,6 @@ view:invalidate()
 ```lua
 local view = View()
 view:padding(5, 5, 5, 5)
-
 ```
 ##  frame
 | api  |参数   |返回参数   |平台   |备注|
@@ -161,7 +161,6 @@ view:padding(5, 5, 5, 5)
 ```lua
 local view = View()
 view:frame(5, 5, 5, 5)
-
 ```
 ##  backgroundColor
 | api  |参数   |返回参数   |平台   |备注|
@@ -172,7 +171,6 @@ view:frame(5, 5, 5, 5)
 ```lua
 local view = View()
 view:backgroundColor(0xff0000, 0.5)
-
 ```
 ##  size
 | api  |参数   |返回参数   |平台   |备注|
@@ -183,7 +181,6 @@ view:backgroundColor(0xff0000, 0.5)
 ```lua
 local view = View()
 view:size(100, 100)
-
 ```
 ##  xy
 | api  |参数   |返回参数   |平台   |备注|
@@ -194,7 +191,6 @@ view:size(100, 100)
 ```lua
 local view = View()
 view:xy(100, 100)
-
 ```
 ##  align
 | api  |参数   |返回参数   |平台   |备注|
@@ -205,7 +201,6 @@ view:xy(100, 100)
 ```lua
 local view = View()
 view:align(Align.RIGHT, Align.BOTTOM)
-
 ```
 ##  alignLeft
 | api  |参数   |返回参数   |平台   |备注|
@@ -216,7 +211,6 @@ view:align(Align.RIGHT, Align.BOTTOM)
 ```lua
 local view = View()
 view:alignLeft()
-
 ```
 ##  alignTop
 | api  |参数   |返回参数   |平台   |备注|
@@ -227,7 +221,6 @@ view:alignLeft()
 ```lua
 local view = View()
 view:alignTop()
-
 ```
 ##  alignRight
 | api  |参数   |返回参数   |平台   |备注|
@@ -238,7 +231,6 @@ view:alignTop()
 ```lua
 local view = View()
 view:alignRight()
-
 ```
 ##  alignBottom
 | api  |参数   |返回参数   |平台   |备注|
@@ -249,7 +241,6 @@ view:alignRight()
 ```lua
 local view = View()
 view:alignBottom()
-
 ```
 ##  alignLeftTop
 | api  |参数   |返回参数   |平台   |备注|
@@ -260,7 +251,6 @@ view:alignBottom()
 ```lua
 local view = View()
 view:alignLeftTop()
-
 ```
 ##  alignTopLeft
 | api  |参数   |返回参数   |平台   |备注|
@@ -271,7 +261,6 @@ view:alignLeftTop()
 ```lua
 local view = View()
 view:alignTopLeft()
-
 ```
 ##  alignCenterTop
 | api  |参数   |返回参数   |平台   |备注|
@@ -282,7 +271,6 @@ view:alignTopLeft()
 ```lua
 local view = View()
 view:alignCenterTop()
-
 ```
 ##  alignTopCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -293,7 +281,6 @@ view:alignCenterTop()
 ```lua
 local view = View()
 view:alignTopCenter()
-
 ```
 ##  alignRightTop
 | api  |参数   |返回参数   |平台   |备注|
@@ -304,7 +291,6 @@ view:alignTopCenter()
 ```lua
 local view = View()
 view:alignRightTop()
-
 ```
 ##  alignTopRight
 | api  |参数   |返回参数   |平台   |备注|
@@ -315,7 +301,6 @@ view:alignRightTop()
 ```lua
 local view = View()
 view:alignTopRight()
-
 ```
 ##  alignLeftBottom
 | api  |参数   |返回参数   |平台   |备注|
@@ -326,7 +311,6 @@ view:alignTopRight()
 ```lua
 local view = View()
 view:alignLeftBottom()
-
 ```
 ##  alignBottomLeft
 | api  |参数   |返回参数   |平台   |备注|
@@ -337,7 +321,6 @@ view:alignLeftBottom()
 ```lua
 local view = View()
 view:alignBottomLeft()
-
 ```
 ##  alignCenterBottom
 | api  |参数   |返回参数   |平台   |备注|
@@ -348,7 +331,6 @@ view:alignBottomLeft()
 ```lua
 local view = View()
 view:alignCenterBottom()
-
 ```
 ##  alignBottomCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -359,7 +341,6 @@ view:alignCenterBottom()
 ```lua
 local view = View()
 view:alignBottomCenter()
-
 ```
 ##  alignRightBottom
 | api  |参数   |返回参数   |平台   |备注|
@@ -370,7 +351,6 @@ view:alignBottomCenter()
 ```lua
 local view = View()
 view:alignRightBottom()
-
 ```
 ##  alignBottomRight
 | api  |参数   |返回参数   |平台   |备注|
@@ -381,7 +361,6 @@ view:alignRightBottom()
 ```lua
 local view = View()
 view:alignBottomRight()
-
 ```
 ##  alignCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -392,7 +371,6 @@ view:alignBottomRight()
 ```lua
 local view = View()
 view:alignCenter()
-
 ```
 ##  alignLeftCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -403,7 +381,6 @@ view:alignCenter()
 ```lua
 local view = View()
 view:alignLeftCenter()
-
 ```
 ##  alignCenterLeft
 | api  |参数   |返回参数   |平台   |备注|
@@ -414,7 +391,6 @@ view:alignLeftCenter()
 ```lua
 local view = View()
 view:alignCenterLeft()
-
 ```
 ##  alignRightCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -425,7 +401,6 @@ view:alignCenterLeft()
 ```lua
 local view = View()
 view:alignRightCenter()
-
 ```
 ##  alignCenterRight
 | api  |参数   |返回参数   |平台   |备注|
@@ -436,7 +411,6 @@ view:alignRightCenter()
 ```lua
 local view = View()
 view:alignCenterRight()
-
 ```
 ##  alignCenterHorizontal
 | api  |参数   |返回参数   |平台   |备注|
@@ -447,7 +421,6 @@ view:alignCenterRight()
 ```lua
 local view = View()
 view:alignCenterHorizontal()
-
 ```
 ##  alignHorizontalCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -458,7 +431,6 @@ view:alignCenterHorizontal()
 ```lua
 local view = View()
 view:alignHorizontalCenter()
-
 ```
 ##  alignCenterVertical
 | api  |参数   |返回参数   |平台   |备注|
@@ -469,7 +441,6 @@ view:alignHorizontalCenter()
 ```lua
 local view = View()
 view:alignCenterVertical()
-
 ```
 ##  alignVerticalCenter
 | api  |参数   |返回参数   |平台   |备注|
@@ -480,7 +451,6 @@ view:alignCenterVertical()
 ```lua
 local view = View()
 view:alignVerticalCenter()
-
 ```
 ##  center
 | api  |参数   |返回参数   |平台   |备注|
@@ -491,7 +461,6 @@ view:alignVerticalCenter()
 ```lua
 local view = View()
 view:center(100,100)
-
 ```
 ##  x
 | api  |参数   |返回参数   |平台   |备注|
@@ -502,7 +471,6 @@ view:center(100,100)
 ```lua
 local view = View()
 view:x(10)
-
 ```
 ##  y
 | api  |参数   |返回参数   |平台   |备注|
@@ -513,7 +481,6 @@ view:x(10)
 ```lua
 local view = View()
 view:y(10)
-
 ```
 ##  left
 | api  |参数   |返回参数   |平台   |备注|
@@ -524,7 +491,6 @@ view:y(10)
 ```lua
 local view = View()
 view:left(10)
-
 ```
 ##  top
 | api  |参数   |返回参数   |平台   |备注|
@@ -535,7 +501,6 @@ view:left(10)
 ```lua
 local view = View()
 view:top(10)
-
 ```
 ##  right
 | api  |参数   |返回参数   |平台   |备注|
@@ -546,7 +511,6 @@ view:top(10)
 ```lua
 local view = View()
 view:right(10)
-
 ```
 ##  bottom
 | api  |参数   |返回参数   |平台   |备注|
@@ -557,7 +521,6 @@ view:right(10)
 ```lua
 local view = View()
 view:bottom(10)
-
 ```
 ##  width
 | api  |参数   |返回参数   |平台   |备注|
@@ -568,7 +531,6 @@ view:bottom(10)
 ```lua
 local view = View()
 view:width(10)
-
 ```
 ##  minWidth
 | api  |参数   |返回参数   |平台   |备注|
@@ -579,7 +541,6 @@ view:width(10)
 ```lua
 local view = View()
 view:minWidth(10)
-
 ```
 ##  height
 | api  |参数   |返回参数   |平台   |备注|
@@ -590,7 +551,6 @@ view:minWidth(10)
 ```lua
 local view = View()
 view:height(10)
-
 ```
 ##  centerX
 | api  |参数   |返回参数   |平台   |备注|
@@ -601,7 +561,6 @@ view:height(10)
 ```lua
 local view = View()
 view:centerX(10)
-
 ```
 ##  centerY
 | api  |参数   |返回参数   |平台   |备注|
@@ -612,7 +571,6 @@ view:centerX(10)
 ```lua
 local view = View()
 view:centerY(10)
-
 ```
 ##  visible
 | api  |参数   |返回参数   |平台   |备注|
@@ -623,7 +581,6 @@ view:centerY(10)
 ```lua
 local view = View()
 view:visible(ture)
-
 ```
 ##  hidden
 | api  |参数   |返回参数   |平台   |备注|
@@ -634,7 +591,6 @@ view:visible(ture)
 ```lua
 local view = View()
 view:hidden(ture)
-
 ```
 ##  show
 | api  |参数   |返回参数   |平台   |备注|
@@ -645,7 +601,6 @@ view:hidden(ture)
 ```lua
 local view = View()
 view:(show)
-
 ```
 ##  isShow
 | api  |参数   |返回参数   |平台   |备注|
@@ -656,7 +611,6 @@ view:(show)
 ```lua
 local view = View()
 local show=view:(isShow)
-
 ```
 ##  hide
 | api  |参数   |返回参数   |平台   |备注|
@@ -667,7 +621,6 @@ local show=view:(isShow)
 ```lua
 local view = View()
 view:(hide)
-
 ```
 ##  isHide
 | api  |参数   |返回参数   |平台   |备注|
@@ -689,7 +642,6 @@ local hide=view:(isHide)
 ```lua
 local view = View()
 local enabled=view:enabled(ture)
-
 ```
 ##  alpha
 | api  |参数   |返回参数   |平台   |备注|
@@ -700,7 +652,6 @@ local enabled=view:enabled(ture)
 ```lua
 local view = View()
 view:alpha(0.5)
-
 ```
 ##  borderWidth
 | api  |参数   |返回参数   |平台   |备注|
@@ -711,7 +662,6 @@ view:alpha(0.5)
 ```lua
 local view = View()
 view:borderWidth(5)
-
 ```
 ##  borderColoer
 | api  |参数   |返回参数   |平台   |备注|
@@ -722,7 +672,6 @@ view:borderWidth(5)
 ```lua
 local view = View()
 view:borderColor(0xff0000)
-
 ```
 ##  clipsToBounds
 | api  |参数   |返回参数   |平台   |备注|
@@ -733,7 +682,6 @@ view:borderColor(0xff0000)
 ```lua
 local view = View()
 view:clipsToBounds(ture)
-
 ```
 ##  shadowPath
 | api  |参数   |返回参数   |平台   |备注|
@@ -744,7 +692,6 @@ view:clipsToBounds(ture)
 ```lua
 local view = View()
 view:shadowPath(ture)
-
 ```
 ##  masksToBounds
 | api  |参数   |返回参数   |平台   |备注|
@@ -755,7 +702,6 @@ view:shadowPath(ture)
 ```lua
 local view = View()
 view:masksToBounds(ture)
-
 ```
 ##  shadowOffset
 | api  |参数   |返回参数   |平台   |备注|
@@ -766,7 +712,6 @@ view:masksToBounds(ture)
 ```lua
 local view = View()
 view:shadowOffset(10)
-
 ```
 ##  shadowRadius
 | api  |参数   |返回参数   |平台   |备注|
@@ -777,7 +722,6 @@ view:shadowOffset(10)
 ```lua
 local view = View()
 view:shadowRadius(2)
-
 ```
 ##  shadowOpacity
 | api  |参数   |返回参数   |平台   |备注|
@@ -788,7 +732,6 @@ view:shadowRadius(2)
 ```lua
 local view = View()
 view:shadowOpacity(8)
-
 ```
 ##  shadowColor
 | api  |参数   |返回参数   |平台   |备注|
@@ -799,7 +742,6 @@ view:shadowOpacity(8)
 ```lua
 local view = View()
 view:shadowColor(0xff0000)
-
 ```
 ##  sizeToFit
 | api  |参数   |返回参数   |平台   |备注|
@@ -810,7 +752,6 @@ view:shadowColor(0xff0000)
 ```lua
 local view = View()
 view:sizeToFit()
-
 ```
 ##  addGestureRecognizer
 | api  |参数   |返回参数   |平台   |备注|
@@ -821,7 +762,6 @@ view:sizeToFit()
 ```lua
 local view = View()
 view:addGestureRecognizer()
-
 ```
 ##  removeGestureRecognizer
 | api  |参数   |返回参数   |平台   |备注|
@@ -832,7 +772,6 @@ view:addGestureRecognizer()
 ```lua
 local view = View()
 view:removeGestureRecognizer()
-
 ```
 ##  transform3D
 | api  |参数   |返回参数   |平台   |备注|
@@ -845,7 +784,6 @@ local view = View()
 transform1 = Transform3D();
 transform1:scale(2,2,2);
 view:transform3D(transform1)
-
 ```
 ##  anchorPoint
 | api  |参数   |返回参数   |平台   |备注|
@@ -856,7 +794,6 @@ view:transform3D(transform1)
 ```lua
 local view = View()
 view:anchorPoint(0.0,0.5)
-
 ```
 ##  removeFromSuper
 | api  |参数   |返回参数   |平台   |备注|
@@ -867,7 +804,6 @@ view:anchorPoint(0.0,0.5)
 ```lua
 local view = View()
 view:removeFromSuper()
-
 ```
 ##  removeFromParent
 | api  |参数   |返回参数   |平台   |备注|
@@ -878,7 +814,6 @@ view:removeFromSuper()
 ```lua
 local view = View()
 view:removeFromParent()
-
 ```
 ##  hasFocus
 | api  |参数   |返回参数   |平台   |备注|
@@ -889,7 +824,6 @@ view:removeFromParent()
 ```lua
 local view = View()
 local has=view:hasFocus()
-
 ```
 ##  requestFocus
 | api  |参数   |返回参数   |平台   |备注|
@@ -900,7 +834,6 @@ local has=view:hasFocus()
 ```lua
 local view = View()
 view:requestFocus()
-
 ```
 ##  clearFocus
 | api  |参数   |返回参数   |平台   |备注|
@@ -911,7 +844,6 @@ view:requestFocus()
 ```lua
 local view = View()
 view:clearFocus()
-
 ```
 ##  rotation
 | api  |参数   |返回参数   |平台   |备注|
@@ -922,7 +854,6 @@ view:clearFocus()
 ```lua
 local view = View()
 view:rotation (3.14/2)
-
 ```
 ##  rotationXY
 | api  |参数   |返回参数   |平台   |备注|
@@ -933,7 +864,6 @@ view:rotation (3.14/2)
 ```lua
 local view = View()
 local rx,ry=view:rotationXY(5,6)
-
 ```
 ##  scale
 | api  |参数   |返回参数   |平台   |备注|
@@ -944,7 +874,6 @@ local rx,ry=view:rotationXY(5,6)
 ```lua
 local view = View()
 local sx,sy=view:scale(4,9)
-
 ```
 ##  scaleX
 | api  |参数   |返回参数   |平台   |备注|
@@ -955,7 +884,6 @@ local sx,sy=view:scale(4,9)
 ```lua
 local view = View()
 view:scaleX(5)
-
 ```
 ##  scaleY
 | api  |参数   |返回参数   |平台   |备注|
@@ -966,7 +894,6 @@ view:scaleX(5)
 ```lua
 local view = View()
 view:scaleY(5)
-
 ```
 ##  translation
 | api  |参数   |返回参数   |平台   |备注|
@@ -977,7 +904,6 @@ view:scaleY(5)
 ```lua
 local view = View()
 view:translation(5,4)
-
 ```
 ##  translationX
 | api  |参数   |返回参数   |平台   |备注|
@@ -988,7 +914,6 @@ view:translation(5,4)
 ```lua
 local view = View()
 view:translationX(4)
-
 ```
 ##  translationY
 | api  |参数   |返回参数   |平台   |备注|
@@ -999,7 +924,6 @@ view:translationX(4)
 ```lua
 local view = View()
 view:translationY(3)
-
 ```
 ##  bringToFront
 | api  |参数   |返回参数   |平台   |备注|
@@ -1010,7 +934,6 @@ view:translationY(3)
 ```lua
 local view = View()
 view:bringToFront()
-
 ```
 ##  scrollTo
 | api  |参数   |返回参数   |平台   |备注|
@@ -1021,7 +944,6 @@ view:bringToFront()
 ```lua
 local view = View()
 view:scrollTo(2,5)
-
 ```
 ##  scrollBy
 | api  |参数   |返回参数   |平台   |备注|
@@ -1032,7 +954,6 @@ view:scrollTo(2,5)
 ```lua
 local view = View()
 view:scrollBy(3,3)
-
 ```
 ##  scrollX
 | api  |参数   |返回参数   |平台   |备注|
@@ -1043,7 +964,6 @@ view:scrollBy(3,3)
 ```lua
 local view = View()
 view:scrollX(10)
-
 ```
 ##  offsetX
 | api  |参数   |返回参数   |平台   |备注|
@@ -1054,7 +974,6 @@ view:scrollX(10)
 ```lua
 local view = View()
 view:offsetX(5)
-
 ```
 ##  scrollY
 | api  |参数   |返回参数   |平台   |备注|
@@ -1065,7 +984,6 @@ view:offsetX(5)
 ```lua
 local view = View()
 view:scrollY(3)
-
 ```
 ##  offsetY
 | api  |参数   |返回参数   |平台   |备注|
@@ -1076,7 +994,6 @@ view:scrollY(3)
 ```lua
 local view = View()
 view:offsetY(3)
-
 ```
 ##  scrollXY
 | api  |参数   |返回参数   |平台   |备注|
@@ -1087,7 +1004,6 @@ view:offsetY(3)
 ```lua
 local view = View()
 view:scrollXY(3,4)
-
 ```
 ##  offsetXY
 | api  |参数   |返回参数   |平台   |备注|
@@ -1098,7 +1014,6 @@ view:scrollXY(3,4)
 ```lua
 local view = View()
 view:offsetXY(3,4)
-
 ```
 ##  offset
 | api  |参数   |返回参数   |平台   |备注|
@@ -1109,7 +1024,6 @@ view:offsetXY(3,4)
 ```lua
 local view = View()
 view:offset(3,4)
-
 ```
 ##  showScrollIndicator
 | api  |参数   |返回参数   |平台   |备注|
@@ -1120,7 +1034,6 @@ view:offset(3,4)
 ```lua
 local view = View()
 view:showScrollIndicator(ture,ture)
-
 ```
 ##  callback
 | api  |参数   |返回参数   |平台   |备注|
@@ -1134,7 +1047,6 @@ view:callback(
     function()
     Alert("Hello LuaView")
 end)
-
 ```
 ##  onClick
 | api  |参数   |返回参数   |平台   |备注|
@@ -1149,7 +1061,6 @@ view:onClick( function()
     local x,y,w,h = view:frame();
     view:frame(x+1,y+1,w-1,h-1);
 end);
-
 ```
 ##  onLongClick
 | api  |参数   |返回参数   |平台   |备注|
@@ -1162,7 +1073,6 @@ local view = View()
 view:onLongClick( function()
     print("onLongClick")
 end);
-
 ```
 ##  adjustSize
 | api  |参数   |返回参数   |平台   |备注|
@@ -1173,7 +1083,6 @@ end);
 ```lua
 local view = View()
 view:adjustSize()
-
 ```
 ##  cornerRadius
 | api  |参数   |返回参数   |平台   |备注|
@@ -1184,7 +1093,6 @@ view:adjustSize()
 ```lua
 local view = View()
 view:cornerRadius(3)
-
 ```
 ##  startAnimation
 | api  |参数   |返回参数   |平台   |备注|
@@ -1197,7 +1105,6 @@ local view = View()
 anim1 = Animation():alpha(1, 0):duration(1)
 anim2 = Animation():scale(1, 0):duration(2):delay(0.2)
 view:startAnimation(anim1, anim2)
-
 ```
 ##  stopAnimation
 | api  |参数   |返回参数   |平台   |备注|
@@ -1208,7 +1115,6 @@ view:startAnimation(anim1, anim2)
 ```lua
 local view = View()
 view:stopAnimation()
-
 ```
 ##  isAnimating
 | api  |参数   |返回参数   |平台   |备注|
@@ -1219,7 +1125,6 @@ view:stopAnimation()
 ```lua
 local view = View()
 view:isAnimating()
-
 ```
 ##  flexCss
 | api  |参数   |返回参数   |平台   |备注|
@@ -1230,7 +1135,6 @@ view:isAnimating()
 ```lua
 local view = View()
 view:flexCss("margin-left: 10, sizetofit: 1, align-self: center")
-
 ```
 ##  flxLayout
 | api  |参数   |返回参数   |平台   |备注|
@@ -1243,7 +1147,6 @@ local view = View()
 view:flxLayout(true, function()
 print("do something")
 end)
-
 ```
 ##  effects
 | api  |参数   |返回参数   |平台   |备注|
@@ -1256,7 +1159,6 @@ local view = View()
 view:effects(ViewEffect.CLICK) -- 点击特效
 view:effects(ViewEffect.CLICK, 0xff0000, 0.5) -- 点击特效，颜色红色，alpha=0.5
 view:effects(ViewEffect.NONE) -- 无效果
-
 ```
 ##  nativeView
 | api  |参数   |返回参数   |平台   |备注|
@@ -1267,7 +1169,6 @@ view:effects(ViewEffect.NONE) -- 无效果
 ```lua
 local view = View()
 view:nativeView()
-
 ```
 ##  borderDash
 | api  |参数   |返回参数   |平台   |备注|
@@ -1278,7 +1179,6 @@ view:nativeView()
 ```lua
 local view = View()
 view:borderDash(4)
-
 ```
 ##  margin
 | api  |参数   |返回参数   |平台   |备注|
@@ -1289,7 +1189,6 @@ view:borderDash(4)
 ```lua
 local view = View()
 view:margin(4,5,6,7)
-
 ```
 ##  onTouch
 | api  |参数   |返回参数   |平台   |备注|
@@ -1301,7 +1200,6 @@ view:margin(4,5,6,7)
 local view = View()
 view:onTouch(function()
 end)
-
 ```
 ##  onShow
 | api  |参数   |返回参数   |平台   |备注|
@@ -1314,7 +1212,6 @@ local view = View()
 view:onShow(function()
 print("i am show")
 end)
-
 ```
 ##  onHide
 | api  |参数   |返回参数   |平台   |备注|
@@ -1327,7 +1224,6 @@ local view = View()
 view:onHide(function()
 print("i am hide")
 end)
-
 ```
 ##  onBack
 | api  |参数   |返回参数   |平台   |备注|
@@ -1340,7 +1236,6 @@ local view = View()
 view:onBack(function()
 print("back pressed")
 end)
-
 ```
 ##  onLayout
 | api  |参数   |返回参数   |平台   |备注|
@@ -1353,7 +1248,6 @@ local view = View()
 view:onLayout(function()
 print("i am layouted")
 end)
-
 ```
 ##  addView
 | api  |参数   |返回参数   |平台   |备注|
@@ -1365,7 +1259,6 @@ end)
 local view = View()
 parent = View()
 parent:addView(view)
-
 ```
 ##  removeView
 | api  |参数   |返回参数   |平台   |备注|
@@ -1378,7 +1271,6 @@ child = View()
 parent = View()
 parent:addView(child)
 parent:removeView(child)
-
 ```
 ##  removeAllViews
 | api  |参数   |返回参数   |平台   |备注|
@@ -1391,7 +1283,6 @@ child = View()
 parent = View()
 parent:addView(child)
 parent:removeAllViews()
-
 ```
 ##  children
 | api  |参数   |返回参数   |平台   |备注|
@@ -1405,7 +1296,6 @@ parent:children(function(parent) -- 所有在函数里创建的View都会被自�
 view = View()
 ...
 end)
-
 ```
 ##  flexChildren
 | api  |参数   |返回参数   |平台   |备注|
@@ -1418,5 +1308,5 @@ child1 = View()
 child2 = View()
 parent = View()
 parent.flexChildren(child1, child2)
-
+```
 

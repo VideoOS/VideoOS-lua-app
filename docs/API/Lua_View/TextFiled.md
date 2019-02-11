@@ -54,14 +54,11 @@ textFiled:text("我是输入框")
 ```lua
 textFiled = TextField()
 textFiled:inputType("number")
-
-''' 
-1	number					 数字键盘
-2	password				  26字母键盘
-3	visible_password	   26字母键盘
-'''
-
+-- number 数字键盘
+-- password 26字母键盘
+-- visible_password 26字母键盘
 ```
+
 ##  textColor
 | api  |参数   |返回参数   |平台   |备注|
 | ------------ | ------------ | ------------ | ------------ | ------------ |
@@ -82,7 +79,6 @@ textFiled:textColor("0x000000 ")
 ```lua
 textFiled = TextField()
 textFiled:textSize(20)
-
 ```
 ##  maxLength
 | api  |参数   |返回参数   |平台   |备注|
@@ -93,7 +89,6 @@ textFiled:textSize(20)
 ```lua
 textFiled = TextField()
 textFiled:maxLength(20)
-
 ```
 ##  resignFirstResponder
 | api  |参数   |返回参数   |平台   |备注|

@@ -20,8 +20,8 @@
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | ios   |   -  |   Boolean| -|   是否是iOS平台|
 
-```
 例：
+```lua
 local isIOS = System:ios()
 ```
 
@@ -30,8 +30,8 @@ local isIOS = System:ios()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | android    |   -  |   Boolean| -|   是否是Android平台|
 
-```
 例：
+```lua
 local isAndoroid = System:android()
 ```
 
@@ -40,8 +40,8 @@ local isAndoroid = System:android()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | sdkVersion    |   -  |   String| -|   LuaView版本|
 
-```
 例：
+```lua
 local sdkVersion = System:sdkVersion()
 ```
 
@@ -50,8 +50,8 @@ local sdkVersion = System:sdkVersion()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | osVersion     |   -  |   String| -|   操作系统版本|
 
-```
 例：
+```lua
 local osVersion = System:osVersion()
 ```
 
@@ -60,8 +60,8 @@ local osVersion = System:osVersion()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | platform     |   -  |   String| -|   平台系统型号|
 
-```
 例：
+```lua
 local platform = System:platform()
 ```
 
@@ -70,8 +70,8 @@ local platform = System:platform()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | scale      |   -  |   Number| -|   屏幕缩放比|
 
-```
 例：
+```lua
 local scale = System:scale()
 ```
 
@@ -80,8 +80,8 @@ local scale = System:scale()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | device       |   -  |   LuaTable| -|   设备信息|
 
-```
 例：
+```lua
 local deviceTable = System:device()
 local device = deviceTable.device
 local brand = deviceTable.brand
@@ -92,8 +92,6 @@ local windowHeight = deviceTable.window_height
 lcoal navHeight = deviceTable.nav_height
 local bottomNavHeight=deviceTable.bottom_nav_height
 local statusBarHeight = deviceTable.status_bar_height
-
-
 ```
 
 ## screenSize
@@ -101,8 +99,8 @@ local statusBarHeight = deviceTable.status_bar_height
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | screenSize        |   -  |   width:Number,height:Number| -|   屏幕尺寸|
 
-```
 例：
+```lua
 local width,height = System:screenSize()
 ```
 
@@ -111,8 +109,8 @@ local width,height = System:screenSize()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | gc        |   -  |   -| -|   执行内存回收|
 
-```
 例：
+```lua
 System:gc()
 ```
 
@@ -121,7 +119,7 @@ System:gc()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | keepScreenOn        |   -  |   Boolean| -|   是否保持屏幕常亮|
 
-```
 例：
+```lua
 local keepScreenOn = System:keepScreenOn()
 ```

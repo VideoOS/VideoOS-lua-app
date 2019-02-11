@@ -59,6 +59,7 @@ local titleBarHeght = Native:titleBarHeight()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | isTitleBarShow   |   -  |   Boolean| -|   导航栏是否展示|
 
+例:
 ```lua
 local isTitleBarShow = Native:isTitleBarShow()
 ```
@@ -68,6 +69,7 @@ local isTitleBarShow = Native:isTitleBarShow()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | packageName   |   -  |   String| -|   获取应用包名|
 
+例:
 ```lua
 local packageName = Native:packageName()
 ```
@@ -77,6 +79,7 @@ local packageName = Native:packageName()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | getIdentity   |   -  |   String| -|   获取设备唯一标志|
 
+例:
 ```lua
 local identity = Native:getIdentity()
 ```
@@ -86,6 +89,7 @@ local identity = Native:getIdentity()
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | md5   |   String  |   String| -|   获取字符串的md5值|
 
+例:
 ```lua
 local md5 = Native:md5("os_lua")
 ```
@@ -95,6 +99,7 @@ local md5 = Native:md5("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | aesEncrypt   |   key,iv,content  |   String| -|   aes加密|
 
+例:
 ```lua
 local md5 = Native:aesEncrypt("yourSecretKey","yourIvParameterSpec","os_lua")
 ```
@@ -104,6 +109,7 @@ local md5 = Native:aesEncrypt("yourSecretKey","yourIvParameterSpec","os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | aesDecrypt   |   key,iv,content    |   String| -|   aes解密|
 
+例:
 ```lua
 local md5 = Native:aesDecrypt("yourSecretKey","yourIvParameterSpec","os_lua")
 ```
@@ -113,6 +119,7 @@ local md5 = Native:aesDecrypt("yourSecretKey","yourIvParameterSpec","os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | zipString   |   String   |   String| -|   字符串压缩|
 
+例:
 ```lua
 local zipString = Native:zipString("os_lua")
 ```
@@ -122,6 +129,7 @@ local zipString = Native:zipString("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | unZipString   |   String   |   String| -|   字符串解压缩|
 
+例:
 ```lua
 local unZipString = Native:unZipString("os_lua")
 ```
@@ -132,6 +140,7 @@ local unZipString = Native:unZipString("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | unZipFile   |   filePath:待解压的文件路径,targetPath：解压后的文件路径   |   Number| -|   文件解压缩|
 
+例:
 ```lua
 local unZipFile = Native:unZipFile("sourceFile","yourTargetPath")
 ```
@@ -142,6 +151,7 @@ local unZipFile = Native:unZipFile("sourceFile","yourTargetPath")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | encode   |   String  |   String| -|   url encode|
 
+例:
 ```lua
 local encode = Native:encode("http://....")
 ```
@@ -152,6 +162,7 @@ local encode = Native:encode("http://....")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | decode   |   String  |   String| -|   url decode|
 
+例:
 ```lua
 local encode = Native:decode("http://....")
 ```
@@ -161,6 +172,7 @@ local encode = Native:decode("http://....")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | base64Encode   |   String  |   String| -|   字符串进行 base64Encode|
 
+例:
 ```lua
 local result = Native:base64Encode("os_lua")
 ```
@@ -170,6 +182,7 @@ local result = Native:base64Encode("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | base64Decode   |   String  |   String| -|   字符串进行 base64Decode|
 
+例:
 ```lua
 local result = Native:base64Decode("os_lua")
 ```
@@ -180,6 +193,7 @@ local result = Native:base64Decode("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | destroyView   |   -  |   -| -|   销毁当前LuaView对象|
 
+例:
 ```lua
  Native:destroyView()
 ```
@@ -189,6 +203,7 @@ local result = Native:base64Decode("os_lua")
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | stringDrawLength   |   text:String,testSize:Float  | Float  | -|  获取字符串显示的宽度值 |
 
+例:
 ```lua
 local textWidth = Native:stringDrawLength("os_lua",12.1)
 ```
@@ -198,6 +213,7 @@ local textWidth = Native:stringDrawLength("os_lua",12.1)
 | ------------ | ------------ | ------------ | ------------ |------------ |
 | sendAction   |   uri:String,data:LuaTable  | -  | -| 路由跳转功能 |
 
+例:
 ```lua
  local base64LuaName = Native:base64Encode("test.lua")
  --关闭前一个testFile形成的LuaView
