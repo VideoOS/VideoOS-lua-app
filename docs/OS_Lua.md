@@ -8,3 +8,6 @@
 
 ## Lua
 OS_Lua 使用Lua语言进行代码编写，目前支持两个端：Android和iOS。Android 端使用LuaJ引擎，iOS端使用LuaC引擎。
+
+## 入口方法
+OS_lua 所有的lua文件运行时，都从show方法开始执行。
