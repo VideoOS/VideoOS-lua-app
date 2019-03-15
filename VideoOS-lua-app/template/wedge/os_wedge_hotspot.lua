@@ -698,13 +698,9 @@ local function registerMedia()
                 wedge.guideParentView:alignBottom()
                 wedge.countDownParentView:alignRight()
             end
-        end,
-        onMediaProgress = function(progress)
-            --            dispatchAd(cloud.data, progress)
         end
     }
     media:mediaCallback(callbackTable)
-    media:startVideoTime()
     return media
 end
 
@@ -1030,7 +1026,7 @@ local function onCreate(data)
     end
     if (wedge.launchPlanId ~= nil) then
         osTrack(wedge.launchPlanId, 1, 2)
-        if(wedgeLinkUrl(data)~=nil)then
+        if (wedgeLinkUrl(data) ~= nil) then
             osTrack(wedge.launchPlanId, 2, 2)
         end
     end
