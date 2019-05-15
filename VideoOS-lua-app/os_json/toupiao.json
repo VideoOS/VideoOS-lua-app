@@ -1,0 +1,75 @@
+{
+  "key": "toupiao",
+  "definitions": {
+    "Item": {
+      "type": "object",
+      "properties": {
+        "imageUrl": {
+          "type": "string",
+          "title": ""
+        },
+        "title": {
+          "type": "string",
+          "title": "",
+          "maxLength": 5
+        }
+      }
+    }
+  },
+  "title": "",
+  "type": "object",
+  "required": [
+    "creativeName",
+    "imageUrl",
+    "voteImageUrl",
+    "voteTitle",
+    "voteList"
+  ],
+  "properties": {
+    "creativeName": {
+      "title": "素材名称",
+      "type": "string",
+      "maxLength": 30
+    },
+    "isShowAds": {
+      "type": "boolean",
+      "title": "关闭按钮是否可见",
+      "default": true
+    },
+    "isShowClose": {
+      "type": "boolean",
+      "title": "关闭按钮是否可见",
+      "default": true
+    },
+    "imageUrl": {
+      "type": "string",
+      "title": "热点图片"
+    },
+    "voteImageUrl": {
+      "type": "string",
+      "title": "投票弹窗图片"
+    },
+    "voteTitle": {
+      "type": "string",
+      "title": "投票弹窗标题",
+      "maxLength": 10
+    },
+    "voteList": {
+      "type": "array",
+      "title": "信息选项",
+      "items": {
+        "$ref": "#/definitions/Item"
+      }
+    },
+    "voteRule": {
+      "type": "string",
+      "title": "投票规则",
+      "maxLength": 100
+    },
+    "infoTrackLink": {
+      "type": "integer",
+      "title": "“投票”按钮",
+      "default": 1
+    }
+  }
+}
