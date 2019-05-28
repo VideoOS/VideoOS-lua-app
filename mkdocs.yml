@@ -59,5 +59,3 @@ nav:
      - 'ScaleType': 'API/Lua_Constants/ScaleType.md'
      - 'TextAlign': 'API/Lua_Constants/TextAlign.md'
      - 'ViewEffect': 'API/Lua_Constants/ViewEffect.md'
-
-
