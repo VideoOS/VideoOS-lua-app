@@ -1,5 +1,13 @@
 site_name: VideoOS lua app
 repo_url: https://github.com/VideoOS/VideoOS-lua-app
+markdown_extensions:
+  - admonition
+theme:
+  name: readthedocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - rust
 nav:
   - 'OS_Lua': 'OS_Lua.md'
   - 'lua_View':
