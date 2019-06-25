@@ -9,7 +9,6 @@ theme:
     - yaml
     - rust
 nav:
-  - 'OS_Lua': 'OS_Lua.md'
   - 'get started': 'get_started.md'
   - 'lua_View':
     - 'Alert': 'API/Lua_View/Alert.md'
