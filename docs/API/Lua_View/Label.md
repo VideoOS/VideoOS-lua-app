@@ -119,10 +119,25 @@ local label = Label()
 label:textAlign(TextAlign.CENTER)
 ```
 
-	1	LEFT  左垂直居中
-	2	RIGHT 整体居中
-	3	CENTER  右垂直居中
+	1	LEFT  	文本居左
+	2	RIGHT 	文本居右
+	3	CENTER  文本水平居中
+默认垂直居中(iOS SDK v1.3.3及以后可配合textVAlign使用)
 
+## textVAlign(>=v1.3.3)
+| api  |参数   |返回参数   |平台   |备注|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|   textVAlign     |  v: TextVAlign    |   v  |  iOS   |  文本对齐方式     |
+
+例:
+```lua
+local label = Label()
+label:textVAlign(TextVAlign.CENTER)
+```
+
+	1	TOP  	文本居上
+	2	BOTTOM 	文本居下
+	3	CENTER	文本垂直居中
 
 ## lines
 | api  |参数   |返回参数   |平台   |备注|
@@ -206,3 +221,27 @@ label:adjustTextSize()
 local label = Label()
 lable:adjustFontSize()
 ```
+
+## strikeLines(>=v1.3.3)
+| api  |参数   |返回参数   |平台   |备注|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|   strikeLines     |  color: Number(optional)    |   color  | -    |  中划线     |
+
+例:
+```lua
+local label = Label()
+label:strikeLines(0x000000)
+```
+不传颜色默认使用字体颜色
+
+## underLines(>=v1.3.3)
+| api  |参数   |返回参数   |平台   |备注|
+| ------------ | ------------ | ------------ | ------------ | ------------ |
+|   underLines     |  color: Number(optional)    |   color  | -    |  下划线     |
+
+例:
+```lua
+local label = Label()
+label:underLines(0x000000)
+```
+不传颜色默认使用字体颜色
