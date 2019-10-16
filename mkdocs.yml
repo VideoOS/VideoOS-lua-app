@@ -10,7 +10,7 @@ theme:
     - rust
 nav:
   - 'get started': 'get_started.md'
-  - 'lua_View':
+  - 'View（视图）':
     - 'Alert': 'API/Lua_View/Alert.md'
     - 'Animation': 'API/Lua_View/Animation.md'
     - 'Button': 'API/Lua_View/Button.md'
