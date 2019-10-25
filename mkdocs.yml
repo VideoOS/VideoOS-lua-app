@@ -35,6 +35,7 @@ nav:
     - 'Toast（提示信息组件）': 'API/Lua_View/Toast.md'
     - 'View（视图组建）': 'API/Lua_View/View.md'
     - 'WebView（html组件）': 'API/Lua_View/WebView.md'
+    - 'AppLet（B类小程序容器）': 'API/Lua_View/AppLet.md'
   - 'Bridge（桥接组件）':
     - 'AudioPlayer（音频播放器组件）': 'API/Lua_Bridge/AudioPlayer.md'
     - 'Data（二进制数据组件）': 'API/Lua_Bridge/Data.md'
